@@ -26,7 +26,7 @@ body{
     display: none;   
     position: absolute;
     left: 0px;
-    top: -30px;
+    top: 0px;
     z-index: -100;
 }
 .header_img02{
@@ -62,15 +62,14 @@ body{
 }
 
 .bar1, .bar2, .bar3 {
-    width: 25px;
-    height: 4px;
+    width: 30px;
+    height: 5px;
     background-color: #fff;
-    margin: 5px 0;
+    margin: 6px 0;
     transition: 0.4s;
     clear: both;
     border-radius: 2px;
-}
-
+} 
 .change .bar1 {
     -webkit-transform: rotate(-45deg) translate(-9px, 6px);
     transform: rotate(-45deg) translate(-9px, 6px);
@@ -84,8 +83,7 @@ body{
 }
 /*======Update_box Section Starts======*/
 .update_box{
-    margin-top: 30px;
-    padding-top: 80px;
+    padding-top: 110px;
     padding-left:0; 
 
 }
@@ -243,9 +241,17 @@ body{
 
 /*---- for 1200 and more ----*/
 @media screen and (min-width:1200px ){
+    .square {
+        padding: 10px;
+
+    }
+    .bar1, .bar2, .bar3 {
+        width: 30px;
+        height: 5px;
+        margin: 6px 0;
+    }
     .update_box{
-        margin-top: 30px;
-        padding-top: 80px;
+        padding-top: 110px;
     }
     .type-wrap{
         height: 350px;
@@ -318,8 +324,7 @@ body{
 /*---- for 1200 and less ----*/
 @media screen and (max-width:1200px ){
     .update_box{
-        margin-top: 30px;
-        padding-top: 80px;
+        padding-top: 110px;
     }
     .type-wrap{
         height: 400px;
@@ -348,16 +353,15 @@ body{
         padding: 10px;
     }
     .bar1, .bar2, .bar3 {
-        width: 25px;
+        width: 1.5em;
         height: 4px;
-        margin: 5px 0;
+        margin: 4px 0;
     }
 }
 /*--- for 1200 and less ---*/
 @media screen and (max-width:1200px ){
    .update_box{
-        margin-top: 30px;
-        padding-top: 80px; 
+        padding-top: 110px; 
     }
     .type-wrap{
         height: 300px;
@@ -382,7 +386,7 @@ body{
         padding: 8px;
     }
     .bar1, .bar2, .bar3 {
-        width: 25px;
+        width: 1.5em;
         height: 4px;
         margin: 4px 0;
     }
@@ -465,11 +469,11 @@ body{
         width: 100px;
     }
     .square {
-        padding: 5px;
+        padding: 8px;
     }
     .bar1, .bar2, .bar3 {
-        width: 20px;
-        height: 3px;
+        width: 1.5em;
+        height: 4px;
         margin: 4px 0;
     }  
 }
@@ -489,11 +493,11 @@ body{
     .square {
         display: inline-block;
         cursor: pointer;
-        padding: 5px;
+        padding: 8px;
     }
     .bar1, .bar2, .bar3 {
-        width: 20px;
-        height: 3px;
+        width: 1.5em;
+        height: 4px;
         margin: 4px 0;
         transition: 0.4s;
     }
@@ -524,7 +528,7 @@ body{
     display: block;
     position: absolute;
     left: 0px;
-    top: -30px;
+    top: -10px;
     z-index: -100;
     }
   .header_img12{
@@ -534,8 +538,20 @@ body{
     display: block;
     //margin-top: 9em; 
     }
+    .square {
+        display: inline-block;
+        cursor: pointer;
+        padding: 8px;
+    }
+    .bar1, .bar2, .bar3 {
+        width: 20px;
+        width: 1.5em;
+        height: 4px;
+        margin: 4px 0;
+        transition: 0.4s;
+    }
     .update_box{
-    padding-top: 65px;
+    padding-top: 55px;
     padding-left:0;
 
     }
@@ -554,12 +570,13 @@ body{
         font-size: 14px;
         font-weight: 500;
         padding:4px 8px;
-    }   
+    }  
+
 }
 
 @media screen and (max-width: 400px){
      .header_top{
-        margin-top: 0px;
+        margin-top: 10px;
     }
      .logo{
         padding: 0px;
@@ -571,11 +588,11 @@ body{
     .square {
         display: inline-block;
         cursor: pointer;
-        padding: 5px;
+        padding: 8px;
     }
        .bar1, .bar2, .bar3 {
-        width: 20px;
-        height: 3px;
+        width: 1.4em;
+        height: 4px;
         margin: 4px 0;
         transition: 0.4s;
     }
@@ -584,7 +601,7 @@ body{
 
 @media screen and (max-width: 320px){
     .header_top{
-        margin-top: 0px;
+        margin-top: 10px;
     }
     .logo{
         padding: 0px;
