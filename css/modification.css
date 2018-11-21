@@ -487,7 +487,7 @@ body{
     }
     .bar1, .bar2, .bar3 {
         width: 1.5em;
-        height: 4px;
+        height: 3px;
         margin: 4px 0;
     }  
 }
@@ -512,7 +512,7 @@ body{
     }
     .bar1, .bar2, .bar3 {
         width: 1.5em;
-        height: 4px;
+        height: 3px;
         margin: 4px 0;
         transition: 0.4s;
     }
@@ -561,7 +561,7 @@ body{
     .bar1, .bar2, .bar3 {
         width: 20px;
         width: 1.5em;
-        height: 4px;
+        height: 3px;
         margin: 4px 0;
         transition: 0.4s;
     }
