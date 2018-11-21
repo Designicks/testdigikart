@@ -26,7 +26,7 @@ body{
     display: none;   
     position: absolute;
     left: 0px;
-    top: -10px;
+    top: -30px;
     z-index: -100;
 }
 .header_img02{
@@ -41,7 +41,7 @@ body{
 }
 .logo{
     padding: 0px;
-    padding-top:15px;   
+    padding-top:10px;   
 }
 .logo img{
     width: 140px;
@@ -339,7 +339,7 @@ body{
         border: 1px solid #fff;
     } 
     .logo{
-        padding-top: 20px;   
+        padding-top: 15px;   
     }
     .logo img{
         width: 150px;
@@ -522,6 +522,10 @@ body{
 @media screen and (max-width: 440px){
 .header_img01{
     display: block;
+    position: absolute;
+    left: 0px;
+    top: -30px;
+    z-index: -100;
     }
   .header_img12{
     display: none;
@@ -554,6 +558,9 @@ body{
 }
 
 @media screen and (max-width: 400px){
+     .header_top{
+        margin-top: 0px;
+    }
      .logo{
         padding: 0px;
         padding-top:10px; 
@@ -576,9 +583,12 @@ body{
 }
 
 @media screen and (max-width: 320px){
+    .header_top{
+        margin-top: 0px;
+    }
     .logo{
         padding: 0px;
-        padding-top:15px;
+        padding-top:10px;
     }
     .logo img{
         width: 100px;
