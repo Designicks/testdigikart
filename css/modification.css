@@ -1,0 +1,599 @@
+body{
+    background: #fff8f8;
+}
+.container-fluid{
+    //box-sizing: border-box;
+}
+.clearfix:before {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.cont_fluid_header{
+    position: relative;
+}
+.header_img12{
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    top: -30px;
+    z-index: -100;
+}
+.header_img01{
+    display: none;   
+    position: absolute;
+    left: 0px;
+    top: -10px;
+    z-index: -100;
+}
+.header_img02{
+    display: none;
+    margin-top: 50px;    
+    left: 0px;
+    top: 0px;
+    //z-index: -100;
+}
+.header_top{
+    margin-top: 20px;
+}
+.logo{
+    padding: 0px;
+    padding-top:15px;   
+}
+.logo img{
+    width: 140px;
+}
+.btn_startproject{
+    float:right;
+    padding:20px 10px; 
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 18px;
+    text-transform: capitalize;
+}
+.square {
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 25px;
+    height: 4px;
+    background-color: #fff;
+    margin: 5px 0;
+    transition: 0.4s;
+    clear: both;
+    border-radius: 2px;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+/*======Update_box Section Starts======*/
+.update_box{
+    margin-top: 30px;
+    padding-top: 80px;
+    padding-left:0; 
+
+}
+.type-wrap{
+    text-align: left;
+    color: #fff;
+    //background: #FF9800 !important;
+    height: 500px;
+    padding: 10px;
+    //padding-bottom:200px;  
+    //line-height: 4.5em;
+       box-sizing: border-box;
+}
+.type-wrap span{
+    white-space: unset !important;
+    font-weight: 700;
+    font-size: 4.5vw !important;
+}
+ .btns {
+    //padding-top: 20px;
+    //margin-top: 10px;
+    width: auto;
+}
+.btns .btn_services{
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: 500;
+    padding:10px 20px;
+    border: 1px solid #fff;
+}
+/*Services starts*/
+
+#service{
+    margin-top: 10%;
+    padding-top: 50px;
+}
+.services .service_row1 img,.services .service_row2 img{
+    padding: 20px;
+}
+.services .service_row1 .css_service{
+    max-width: 170px;
+    width: auto;
+    box-sizing: border-box;
+}
+.services .service_row2 div:nth-child(6) {
+    text-align: center;
+}
+.adjusting_box{
+    display: none;
+    height: 10em;
+}
+
+/*
+* ----------------------------------------------------------------------------------------
+* Features CSS STYLE
+* ----------------------------------------------------------------------------------------
+*/
+.features{
+    padding-left: 20px;
+}
+.features .heading_features_main{
+    color:blue;
+    font-size: 36px;
+    font-weight: 600;
+    margin: 0 auto;
+    text-align: center;
+    padding: 35px;
+    margin-bottom: 20px;
+}
+.single-feature .heading_features h2{
+    font-size: 25px;
+    font-weight: 500;
+    color: blue;
+}
+.features-padding {
+    padding: 40px 0px;
+}
+.single-feature {
+    background: #fff;
+    border: 1px solid #eee;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    background: #fff;
+}
+.feature-icon i {
+    font-size: 60px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+/*
+* ----------------------------------------------------------------------------------------
+* SOLUTIONS CSS STYLE
+* ----------------------------------------------------------------------------------------
+*/
+#SOLUTIONS{
+    position: relative;
+}
+#solutions{
+    padding: 0px;
+}
+.heading_services{
+    text-align: center;
+    //margin: 0 auto;
+    font-weight: 300;
+}
+#SOLUTIONS .background_left{
+    width: 600px;
+    position: absolute;
+    left: 10px;
+    top: 60px; 
+    z-index: -210;
+}
+#solutions div:nth-child(1){
+    padding: 0;
+    margin:0;
+}
+#solutions div:nth-child(2){
+    padding: 0;
+    margin:0;
+}
+#solutions .sol_left{
+    padding: -10px;
+}
+#solutions .sol_left .background_lady{
+    width: 700px;
+    margin-left: -150px;
+    margin-top: 60px;
+}
+#solutions .sol_right{
+    padding-top: 150px;
+}
+/*#solutions .sol_right h2,#solutions2 .sol_left2 h2{
+    padding:30px 0; 
+    //margin-top:100px;
+    font-weight: 700;
+    font-size: 38px;
+    color:#1B6FCF;
+}*/
+/*#solutions .sol_right p,#solutions2 .sol_left2 p{
+    line-height: 20px;
+    font-size: 18px;
+    color: #9d9d9d;
+}*/
+
+/*
+* ----------------------------------------------------------------------------------------
+* END SERVICE CSS STYLE
+* ----------------------------------------------------------------------------------------
+*/
+
+/* ======Services Ends======*/ 
+
+
+/*---- for 1200 and more ----*/
+@media screen and (min-width:1200px ){
+    .update_box{
+        margin-top: 30px;
+        padding-top: 80px;
+    }
+    .type-wrap{
+        height: 350px;
+        padding: 10px;
+    }
+    .type-wrap span{
+        font-size: 4.5vw ;
+    }
+    .btns {
+        padding-top: 20px;
+        margin-top: 10px;
+    }
+    .btns .btn_services{
+        font-size: 20px;
+        padding:10px 20px;
+        border: 1px solid #fff;
+    }
+}
+
+/*---- for 1440px to 1680px ----*/
+@media screen and (min-width:1440px ) and (max-width: 1680px){
+    .update_box{
+        padding-top: 120px;
+    }
+    .type-wrap{
+        height: 350px;
+    }
+    .adjusting_box{
+        display: block;
+        height: 5em;
+    }
+}
+/*---- for 1680px to 1998px ----*/
+@media screen and (min-width:1680px ) and (max-width: 1998px){
+    .update_box{
+        padding-top: 120px;
+    }
+    .type-wrap{
+        height: 400px;
+    }
+    .type-wrap span{}
+    .btns {
+        padding-top: 4em;
+        margin-top: 1.20em;
+    }
+    .btns .btn_services{
+        font-size: 25px;
+    } 
+    .adjusting_box{
+        display: block;
+        height: 6em;
+    } 
+    .logo{
+        padding-top: 20px;   
+    }
+    .logo img{
+        width: 150px;
+    }
+    .square {
+        padding: 10px;
+
+    }
+    .bar1, .bar2, .bar3 {
+        width: 30px;
+        height: 5px;
+        margin: 6px 0;
+    }
+}
+
+/*---- for 1200 and less ----*/
+@media screen and (max-width:1200px ){
+    .update_box{
+        margin-top: 30px;
+        padding-top: 80px;
+    }
+    .type-wrap{
+        height: 400px;
+        padding: 10px;
+    }
+    .type-wrap span{
+        font-size: 4.5vw;
+    }
+    .btns {
+        padding-top:0px;
+        margin-top: 0px;
+        width: auto;
+    }
+    .btns .btn_services{
+        font-size: 20px;
+        padding:10px 20px;
+        border: 1px solid #fff;
+    } 
+    .logo{
+        padding-top: 20px;   
+    }
+    .logo img{
+        width: 150px;
+    }
+    .square {
+        padding: 10px;
+    }
+    .bar1, .bar2, .bar3 {
+        width: 25px;
+        height: 4px;
+        margin: 5px 0;
+    }
+}
+/*--- for 1200 and less ---*/
+@media screen and (max-width:1200px ){
+   .update_box{
+        margin-top: 30px;
+        padding-top: 80px; 
+    }
+    .type-wrap{
+        height: 300px;
+        padding: 10px;
+    }
+    .type-wrap span{
+        font-size: 4.5vw;
+    }
+    .btns {}
+    .btns .btn_services{
+        font-size: 20px;
+        padding:10px 20px;
+        border: 1px solid #fff;
+    }
+    .logo{
+        padding-top: 15px;   
+    }
+    .logo img{
+        width: 100px;
+    }
+    .square {
+        padding: 8px;
+    }
+    .bar1, .bar2, .bar3 {
+        width: 25px;
+        height: 4px;
+        margin: 4px 0;
+    }
+   .services{ 
+        padding-left: 0px;
+    }
+    .services div{
+        padding-left: 0px;
+    }
+    .service_row1,.service_row2{
+        margin: 0 auto;
+        width: 100%!important; 
+    }
+}
+/*--- for 991px and less ---*/
+@media screen and (max-width:991px ){
+    #service{
+        margin-top: 50px!important;
+        padding-top: 10px!important;
+    }
+    .services{ 
+        padding-left: 0px;
+    }
+    .services div{
+        padding-left: 0px;
+    }
+    .service_row1,.service_row2{
+        margin: 0 auto;
+        width: 70%!important; 
+    }
+}
+@media screen and (max-width:768px ){
+    .update_box{
+    padding-top: 80px;
+    padding-left:0;
+
+    }
+    .type-wrap{
+        height: 12em;
+        padding-top: 0px;
+    }
+    .type-wrap span{
+        font-size: 5vw;
+        font-size: 34px !important;
+    }
+     .btns {
+    }
+    .btns .btn_services{
+        font-size: 16px;
+        font-weight: 500;
+        padding:5px 10px;
+    } 
+}
+@media screen and (max-width:576px ){
+     .update_box{
+    padding-top: 60px;
+    padding-left:0; 
+
+    }
+    .type-wrap{
+        height: 7.5em;
+        padding-top: 0px;
+    }
+    .type-wrap span{
+        white-space: unset !important;
+        font-weight: 700;
+        font-size: 4.5vw !important;
+    }
+     .btns {
+    }
+    .btns .btn_services{
+        font-size: 16px;
+        font-weight: 500;
+        padding:5px 10px;
+    }
+    .logo{
+        padding-top: 10px;   
+    }
+    .logo img{
+        width: 100px;
+    }
+    .square {
+        padding: 5px;
+    }
+    .bar1, .bar2, .bar3 {
+        width: 20px;
+        height: 3px;
+        margin: 4px 0;
+    }  
+}
+/*-- for 481px and less --*/
+@media screen and (max-width:481px ){
+  .header_top{
+        margin-top: 10px;
+    }
+    .logo{
+        padding: 0px;
+        padding-top:10px;   
+    }
+    .logo img{
+        width: 100px;
+        margin-right: 10px;
+    }  
+    .square {
+        display: inline-block;
+        cursor: pointer;
+        padding: 5px;
+    }
+    .bar1, .bar2, .bar3 {
+        width: 20px;
+        height: 3px;
+        margin: 4px 0;
+        transition: 0.4s;
+    }
+    .update_box{
+    padding-top: 60px;
+    padding-left:0; 
+
+    }
+    .type-wrap{
+        height: 8em;
+        padding-top: 0px;
+    }
+    .type-wrap span{
+        white-space: unset !important;
+        font-weight: 700;
+        font-size: 5.2vw !important;
+    }
+     .btns {
+    }
+    .btns .btn_services{
+        font-size: 16px;
+        font-weight: 500;
+        padding:5px 10px;
+    } 
+}
+@media screen and (max-width: 440px){
+.header_img01{
+    display: block;
+    }
+  .header_img12{
+    display: none;
+  }
+  .header_img02{
+    display: block;
+    //margin-top: 9em; 
+    }
+    .update_box{
+    padding-top: 65px;
+    padding-left:0;
+
+    }
+    .type-wrap{
+        height: 8.8em;
+        padding-top: 0px;
+    }
+    .type-wrap span{
+        white-space: unset !important;
+        font-weight: 700;
+        font-size: 7vw !important;
+    }
+     .btns {
+    }
+    .btns .btn_services{
+        font-size: 14px;
+        font-weight: 500;
+        padding:4px 8px;
+    }   
+}
+
+@media screen and (max-width: 400px){
+     .logo{
+        padding: 0px;
+        padding-top:10px; 
+    }
+    .logo img{
+        width: 90px;
+    }  
+    .square {
+        display: inline-block;
+        cursor: pointer;
+        padding: 5px;
+    }
+       .bar1, .bar2, .bar3 {
+        width: 20px;
+        height: 3px;
+        margin: 4px 0;
+        transition: 0.4s;
+    }
+
+}
+
+@media screen and (max-width: 320px){
+    .logo{
+        padding: 0px;
+        padding-top:15px;
+    }
+    .logo img{
+        width: 100px;
+    }  
+   /* .btn_startproject{
+    float: left;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 7px 3px;
+    line-height: 25px;
+    text-transform: capitalize;
+    }*/
+    .square {
+        display: inline-block;
+        cursor: pointer;
+        padding: 7px;
+    }
+}

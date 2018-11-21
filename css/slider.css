@@ -1,0 +1,44 @@
+  .col-md-4{
+  display: inline-block;
+  margin-left:-10px;
+}
+.col-md-4 img{
+  width:100px;
+  height:auto;
+}
+  
+body .carousel-control-prev-icon,
+body .carousel-indicators li,
+body .carousel-control-next-icon{
+  background-color:#000;
+  padding: 10px;
+  color: #fff;
+}
+
+span .right,span .left {
+	width: 50px;
+	height: 50px;
+	border-radius: 40px;
+
+}
+.carousel-inner{
+
+}
+.content{
+  text-align: center;
+  width:auto;
+  border: 1px solid #ababab;
+  border-radius:10px;
+  padding:10px;
+}
+.carousel-item{
+  //margin:0 auto;
+  //background: grey;
+}
+.items {
+ //background: yellow; 
+}
+.slide1,.slide2,.slide3{
+  //width: 500px;
+  //margin: 0 auto; 
+}
