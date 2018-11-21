@@ -58,7 +58,7 @@ body{
     display: inline-block;
     cursor: pointer;
     padding: 10px;
-    border-radius: 100%;
+    border-radius: 50%;
 }
 
 .bar1, .bar2, .bar3 {
@@ -66,6 +66,7 @@ body{
     height: 5px;
     background-color: #fff;
     margin: 6px 0;
+    margin:0 auto;
     transition: 0.4s;
     clear: both;
     border-radius: 2px;
@@ -323,6 +324,16 @@ body{
 
 /*---- for 1200 and less ----*/
 @media screen and (max-width:1200px ){
+    .header_top{
+        margin-top:0px;
+        padding-top:20px;
+    }
+    .logo{
+        padding-top: 10px;   
+    }
+    .logo img{
+        width: 150px;
+    }
     .update_box{
         padding-top: 110px;
     }
@@ -343,12 +354,6 @@ body{
         padding:10px 20px;
         border: 1px solid #fff;
     } 
-    .logo{
-        padding-top: 15px;   
-    }
-    .logo img{
-        width: 150px;
-    }
     .square {
         padding: 10px;
     }
@@ -376,8 +381,12 @@ body{
         padding:10px 20px;
         border: 1px solid #fff;
     }
+    .header_top{
+        margin-top:0px;
+        padding-top:10px;
+    }
     .logo{
-        padding-top: 15px;   
+        padding-top: 10px;   
     }
     .logo img{
         width: 100px;
@@ -419,10 +428,16 @@ body{
     }
 }
 @media screen and (max-width:768px ){
+    .header_top{
+        margin-top:0px;
+        padding-top:10px;
+    }
+    .logo{
+        padding-top: 10px;   
+    }
     .update_box{
-    padding-top: 80px;
-    padding-left:0;
-
+        padding-top: 80px;
+        padding-left:0;
     }
     .type-wrap{
         height: 12em;
@@ -442,9 +457,8 @@ body{
 }
 @media screen and (max-width:576px ){
      .update_box{
-    padding-top: 60px;
-    padding-left:0; 
-
+        padding-top: 60px;
+        padding-left:0; 
     }
     .type-wrap{
         height: 7.5em;
@@ -480,11 +494,12 @@ body{
 /*-- for 481px and less --*/
 @media screen and (max-width:481px ){
   .header_top{
-        margin-top: 10px;
+        margin-top:0px;
+        padding-top:10px;
     }
     .logo{
-        padding: 0px;
-        padding-top:10px;   
+        padding: 0;
+        padding-top: 10px;   
     }
     .logo img{
         width: 100px;
@@ -575,12 +590,12 @@ body{
 }
 
 @media screen and (max-width: 400px){
-     .header_top{
-        margin-top: 10px;
+    .header_top{
+        margin-top:0px;
+        padding-top:10px;
     }
-     .logo{
-        padding: 0px;
-        padding-top:10px; 
+    .logo{
+        padding-top: 10px;   
     }
     .logo img{
         width: 90px;
@@ -600,12 +615,13 @@ body{
 }
 
 @media screen and (max-width: 320px){
-    .header_top{
-        margin-top: 10px;
+   .header_top{
+        margin-top:0px;
+        padding-top:10px;
     }
     .logo{
-        padding: 0px;
-        padding-top:10px;
+        padding: 0;
+        padding-top: 10px;   
     }
     .logo img{
         width: 100px;
