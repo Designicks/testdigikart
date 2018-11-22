@@ -1,0 +1,133 @@
+#reccomended .owl-item {
+    opacity: 0.5;
+    transform: scale(0.85);
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform: translateZ(0) scale(0.85, 0.85);
+    transition: all 0.3s ease-in-out 0s;
+    overflow: hidden;
+}
+#reccomended .owl-item.active.center {
+    opacity: 1;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform: translateZ(0) scale(1, 1);
+    transform: scale(1);
+}
+.owl-theme .owl-dots .owl-dot {
+    display: inline-block;
+    zoom: 1;
+}
+
+.owl-carousel .owl-dot, .owl-carousel .owl-nav .owl-next, .owl-carousel .owl-nav .owl-prev {
+    cursor: pointer;
+    cursor: hand;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.owl-theme .owl-dots .owl-dot {
+    display: inline-block;
+    zoom: 1;
+}
+
+.owl-theme .owl-dots, .owl-theme .owl-nav {
+    text-align: center;
+    -webkit-tap-highlight-color: transparent;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    //background: #869791;
+   
+	}
+
+.owl-theme .owl-dots .owl-dot span {
+    width: 10px;
+    height: 10px;
+    margin: 5px 7px;
+    background: #D6D6D6;
+	display: block;
+    -webkit-backface-visibility: visible;
+    transition: opacity .2s ease;
+    border-radius: 30px;
+}
+
+.owl-carousel .owl-item img {
+    display: inline;
+ 	width:auto;
+}
+/*.become_member{
+	height:300px;
+	background-color:#ccc;
+	//background:url('../images/become.png');
+	background-size:cover;
+	display: -webkit-flex; /* Safari */
+    -webkit-align-items: center; /* Safari 7.0+ */
+    display: flex;
+    align-items: center;
+	text-align:center;
+}*/
+.become_member{
+	background:url('http://ruch.com.pl/en/wp-content/uploads/sites/3/2015/03/wide_pic_prasa_znp.jpg');
+	background-size:100%;
+}
+.become_member h1{
+	margin:auto;
+	text-align:center;
+}
+.member_form{
+	margin-top:30px;
+	margin-bottom:50px;
+}
+.member_form h2{
+	margin-bottom:20px;
+}
+.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next, .owl-carousel button.owl-dot {
+    background: none;
+    color: inherit;
+    padding: 0 !important;
+    font: inherit;
+    font-size: 41px;
+    line-height: 50px;
+    width: 50px;
+    height: 50px;
+    border-radius:100px;
+    margin-bottom: 20px;
+    background: #5f76ea;
+	color:#fff;
+}
+.owl-prev, .owl-next{
+	width: 50px !important;
+	position: absolute;
+	background: #ddd;
+	top: 150px;
+	right: 0px;
+	border-radius: 50% !important; 
+}
+#reccomended .item{
+    background: blue !important;
+	border-radius: 20px;
+	padding:10px;
+	text-align: center;
+}
+#reccomended img{
+    width: 50px;   
+}
+#reccomended .item h4{
+	text-align: center !important;
+	color: #fff !important;
+	font-weight: 500 !important;
+	padding-top: 20px;
+
+}
+.columns{
+    width: 500px!important;
+
+}
