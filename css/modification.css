@@ -16,7 +16,7 @@ body{
     position: relative;
 }
 .header_img12{
-    width: 100%;
+    width: 120%!important;
     position: absolute;
     left: 0px;
     top: -30px;
@@ -146,7 +146,7 @@ body{
     padding-left: 20px;
 }
 .features .heading_features_main{
-    color:blue;
+    color: #1B6FCF;
     font-size: 36px;
     font-weight: 600;
     margin: 0 auto;
@@ -155,9 +155,9 @@ body{
     margin-bottom: 20px;
 }
 .single-feature .heading_features h2{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 500;
-    color: blue;
+    color: #1B6FCF;
 }
 .features-padding {
     padding: 40px 0px;
@@ -192,7 +192,7 @@ body{
     width: 45vw;
     position: absolute;
     left: 0px;
-    top: 10px; 
+    top: 10px;
     z-index: -210;
 }
 #solutions .sol_left{
@@ -200,27 +200,29 @@ body{
 }
 #solutions .sol_left .character_lady{
     width: 700px !important;
-    position: absolute;
-    left: -100px;
-    top: 20px;
+    margin-left: -100px;
+    //position: absolute;
+    //left: -90px;
+    //top: 20px;
     box-sizing: border-box;
 }
 #solutions .sol_right{
-    padding: 40px 30px;
+    padding: 40px 10px;
     padding-bottom: 0px;
 }
 #solutions .sol_right .heading_services{
     font-size: 25px;
     text-align: left;
     font-weight: 300;
-    padding:20px 0;
+    padding: 20px 0;
     padding-bottom: 0px;
+    color: #9d9d9d;
 }
 #solutions .sol_right h2,#solutions2 .sol_left2 h2{
-    padding:15px 0; 
-    font-weight: 700;
-    font-size: 30px;
-    color:#1B6FCF; 
+    padding: 15px 0;
+    font-weight: 600;
+    font-size: 36px;
+    color: #1B6FCF;
 }
 #solutions .sol_right p,#solutions2 .sol_left2 p{
     padding:15px 0;
@@ -228,26 +230,159 @@ body{
     font-size: 18px;
     color: #9d9d9d;
 }
-/*#solutions .sol_right h2,#solutions2 .sol_left2 h2{
-    padding:30px 0; 
-    //margin-top:100px;
-    font-weight: 700;
-    font-size: 38px;
-    color:#1B6FCF;
-}*/
-/*#solutions .sol_right p,#solutions2 .sol_left2 p{
-    line-height: 20px;
-    font-size: 18px;
-    color: #9d9d9d;
-}*/
 
 /*
 * ----------------------------------------------------------------------------------------
-* END SERVICE CSS STYLE
+* END SOLUTIONS CSS STYLE
 * ----------------------------------------------------------------------------------------
 */
 
-/* ======Services Ends======*/ 
+/* ====== TESTIMONIALS Styles Here ======*/ 
+#TESTIMONIAL{
+}
+.testimonial{
+    border: 1px solid red;
+    padding: 80px 10px;
+}
+.testimonial .testimonial_left{
+    width: 50%;
+    position: relative;
+}
+.testimonial .testimonial_left .circle3{
+    margin: 0 auto;
+    width: 150px;
+    width: 35em;
+    height:35em;
+    border-radius: 35em;
+    position: absolute;
+    position: relative;
+    z-index: 301;
+    left: -4.5em;
+    border: 1px solid #1B6FCF;
+}
+.testimonial .testimonial_left .circle2{
+    margin: 0 auto;
+    width: 25em;
+    height: 25em;
+    border-radius: 25em;
+    position: absolute;
+    position: relative;
+    z-index: 302;
+    top: 4.8em;
+    border: 2px solid #1B6FCF;
+}
+.testimonial .testimonial_left .circle1{
+    margin: 0 auto;
+    width: 15em;
+    height: 15em;
+    border-radius: 15em;
+    position: absolute;
+    position: relative;
+    z-index: 303;
+    top: 4.8em;
+    border: 3px solid #1B6FCF;
+}
+.testimonial .testimonial_left .circle0{
+    margin: 0 auto;
+    width: 4em;
+    height: 4em;
+    background: #1B6FCF;
+    border-radius: 4em;
+    position: absolute;
+    position: relative;
+    z-index: 304;
+    top: 4.8em;
+    border: 4px solid #1B6FCF;
+}
+.testimonial_left img{
+    width: 80px;
+}
+.member1,.member2,.member3,.member4,.member5,.member6,.member7{
+    position: absolute;
+
+}
+.member1{
+    top: -2em;
+    left: 6em;
+}
+.member2{
+    top: 8em;
+    left: -1.3em;   
+}
+.member3{
+    top: -2em;
+    left: 5.5em;  
+}
+.member4{
+    bottom: -2em;
+    left: 8em;   
+}
+.member5{
+    bottom: 8.5em;
+    right: -2em;   
+}
+.member6{
+    top: -1em;
+    right: 8.3em;
+}
+.member7{
+    bottom: 1em;
+    right: 5em;
+}
+/*common property for model members*/
+.model_member{
+    display: none;
+    width: 200px;
+    position: inherit;
+    bottom: -4em;
+    z-index: 305;
+    -moz-transition:all 1s;
+    -webkit-transition:all 1s;
+    transition: all 1s; 
+}
+.model_m1{
+    width: 200px;
+    display: none;
+    position: inherit;
+    bottom: -4em;
+    z-index: 305;
+    -moz-transition:all 1s;
+    -webkit-transition:all 1s;
+    transition: all 1s; 
+}
+.model_text{
+    padding: 5px;
+    background: #1B6FCF;
+    color: #fff;
+    border: 1px;
+    border: 1px solid #fff;
+    border-radius: 5px;       
+}
+.member1:hover .model_m1{
+    display: block;
+}
+.member2:hover .model_m2{
+    display: block;
+}
+.member3:hover .model_m3{
+    display: block;
+}
+.member4:hover .model_m4{
+    display: block;
+}
+.member5:hover .model_m5{
+    display: block;
+}
+.member6:hover .model_m6{
+    display: block;
+}
+.member7:hover .model_m7{
+    display: block;
+}
+
+.testimonial .testimonial_right{
+    
+}
 
 
 /*---- for 1200 and more ----*/
@@ -280,6 +415,10 @@ body{
         padding:10px 20px;
         border: 1px solid #fff;
     }
+    #SOLUTIONS .background_left01{
+        width: 600px;
+    }
+
 }
 
 /*---- for 1440px to 1680px ----*/
@@ -376,8 +515,12 @@ body{
     }
     .features .heading_features_main{
         font-size: 30px;
-        font-weight: 200;
+        font-weight: 400;
     }
+
+    #solutions .sol_left .character_lady{
+    width: 600px;
+    margin-left: -30px;
 
 }
 /*--- for 1200 and less ---*/
@@ -443,6 +586,48 @@ body{
         margin: 0 auto;
         width: 80%!important; 
     }
+
+    /*media css for features box section*/
+    .single-feature .heading_features h2{
+        font-size: 16px;
+    }
+    
+    /*media css for solution section*/
+    #SOLUTIONS .background_left01{
+        width: 650px;
+    }
+    #solutions .sol_left .character_lady{
+        width: 600px;
+        margin-left: -30px;
+    }
+    #solutions .sol_right h2,#solutions2 .sol_left2 h2{
+        color: #1B6FCF;
+    }
+    #solutions .sol_right p,#solutions2 .sol_left2 p{
+        font-size: 16px;
+    }
+
+    /*css for owl carousel slider*/
+     #reccomended{
+        padding: 0px!important;
+     }
+      #reccomended .owl-nav button.owl-prev,
+      #reccomended .owl-nav button.owl-next{
+        width: 50px;
+        height: 50px;
+        border-radius: 50px !important;
+        font-size: 30px;
+      }
+    #reccomended img{
+        width: 40px;
+    }
+    #reccomended h4{
+        font-size: 16px!important;
+    }
+    #reccomended .owl-carousel .owl-item h4{ 
+        font-size: 16px!important;
+    }
+
 }
 @media screen and (max-width:768px ){
     .header_top{
@@ -464,8 +649,7 @@ body{
         font-size: 5vw;
         font-size: 34px !important;
     }
-     .btns {
-    }
+    .btns {}
     .btns .btn_services{
         font-size: 16px;
         font-weight: 500;
@@ -474,6 +658,20 @@ body{
     .features .heading_features{
         font-size: 20px !important;
     }
+
+/*media css for solution section*/
+    #SOLUTIONS .background_left01{
+        width: 550px;
+    }
+/*css for owl carousel slider*/
+    #reccomended .owl-nav button.owl-prev,
+    #reccomended .owl-nav button.owl-next{
+        width: 45px;
+        height: 45px;
+        border-radius: 45px !important;
+        font-size: 25px;
+      }
+
 }
 @media screen and (max-width:576px ){
      .update_box{
@@ -509,7 +707,153 @@ body{
         width: 1.5em;
         height: 4px;
         margin: 4px 0;
-    }  
+    }
+
+    /*======= Testimonial style css =======*/
+    /*.testimonial{
+        border: 1px solid blue;
+        width: 100%;
+        height: 100%;
+    }
+    .testimonial .testimonial_left{}
+    .testimonial .testimonial_left .circle3{
+        margin: 0 auto;
+        width: 75%;
+        height:75%;
+        border-radius: 75%;
+        position: absolute;
+        position: relative;
+        z-index: 301;
+        left: -20%;
+        border: 1px solid #1B6FCF;
+    }
+    .testimonial .testimonial_left .circle2{
+        margin: 0 auto;
+        width: 50%;
+        height: 50%;
+        border-radius: 50%;
+        position: absolute;
+        position: relative;
+        z-index: 302;
+        top: 20.5%;
+        border: 2px solid #1B6FCF;
+    }
+    .testimonial .testimonial_left .circle1{
+        margin: 0 auto;
+        width: 25%;
+        height: 25%;
+        border-radius: 25%;
+        position: absolute;
+        position: relative;
+        z-index: 303;
+        top: 20.5%;
+        border: 3px solid #1B6FCF;
+    }
+    .testimonial .testimonial_left .circle0{
+        margin: 0 auto;
+        width: 5%;
+        height: 5%;
+        background: #1B6FCF;
+        border-radius: 5%;
+        position: absolute;
+        position: relative;
+        z-index: 304;
+        top: 20.5%;
+        border: 4px solid #1B6FCF;
+    }
+    .testimonial_left img{
+        width: 30px;
+    }
+    .member1,.member2,.member3,.member4,.member5,.member6,.member7{
+        position: absolute;
+
+    }
+    .member1{
+        top: -20%;
+        left: 37%;
+    }
+    .member2{
+        top: 50%;
+        left: -10%;   
+    }
+    .member3{
+        top: -2em;
+        left: 5.5em;  
+    }
+    .member4{
+        bottom: -2em;
+        left: 8em;   
+    }
+    .member5{
+        bottom: 8.5em;
+        right: -2em;   
+    }
+    .member6{
+        top: -1em;
+        right: 8.3em;
+    }
+    .member7{
+        bottom: 1em;
+        right: 5em;
+    }
+    /*common property for model members*/
+    .model_member{
+        display: none;
+        width: 200px;
+        position: inherit;
+        bottom: -10%;
+        z-index: 305;
+        -moz-transition:all 1s;
+        -webkit-transition:all 1s;
+        transition: all 1s;
+    }
+    .model_m1{
+        width: 30%;
+        display: none;
+        position: inherit;
+        bottom: -10%;
+        z-index: 305;
+        -moz-transition:all 1s;
+        -webkit-transition:all 1s;
+        transition: all 1s; 
+    }
+    .model_text{
+        padding: 5px;
+        background: #1B6FCF;
+        color: #fff;
+        border: 1px;
+        border: 1px solid #fff;
+        border-radius: 5px;       
+    }
+    .member1:hover .model_m1{
+        display: block;
+    }
+    .member2:hover .model_m2{
+        display: block;
+    }
+    .member3:hover .model_m3{
+        display: block;
+    }
+    .member4:hover .model_m4{
+        display: block;
+    }
+    .member5:hover .model_m5{
+        display: block;
+    }
+    .member6:hover .model_m6{
+        display: block;
+    }
+    .member7:hover .model_m7{
+        display: block;
+    }
+
+
+*/
+
+
+
+
+
 }
 /*-- for 481px and less --*/
 @media screen and (max-width:481px ){
