@@ -58,7 +58,7 @@ body{
     display: inline-block;
     cursor: pointer;
     padding: 10px;
-    border-radius: 50%;
+    border-radius: 100%;
 }
 
 .bar1, .bar2, .bar3 {
