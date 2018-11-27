@@ -65,7 +65,7 @@ body{
     width: 30px;
     height: 5px;
     background-color: #fff;
-    margin: 6px 0;
+    margin: 5px 0;        /*6px ->5 px*/
     margin:0 auto;
     transition: 0.4s;
     clear: both;
