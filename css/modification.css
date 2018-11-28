@@ -57,15 +57,15 @@ body{
 .square {
     display: inline-block;
     cursor: pointer;
-    //padding: 10px;       /*10px -> 0px */
-    border-radius: 100%;   /*50% -> 100% */
+    padding: 10px;
+    border-radius: 50%;
 }
 
 .bar1, .bar2, .bar3 {
     width: 30px;
     height: 5px;
     background-color: #fff;
-    margin: 5px 0;        /*6px ->5 px*/
+    margin: 6px 0;
     margin:0 auto;
     transition: 0.4s;
     clear: both;
@@ -201,20 +201,17 @@ body{
 #solutions .sol_left .character_lady{
     width: 700px !important;
     margin-left: -100px;
-    //position: absolute;
-    //left: -90px;
-    //top: 20px;
     box-sizing: border-box;
 }
 #solutions .sol_right{
-    padding: 40px 10px;
+    padding: 30px 10px;
     padding-bottom: 0px;
 }
-#solutions .sol_right .heading_services{
+#solutions .sol_right .heading_services,.sol_left2 .heading_services{
     font-size: 25px;
     text-align: left;
     font-weight: 300;
-    padding: 20px 0;
+    padding: 40px 0;
     padding-bottom: 0px;
     color: #9d9d9d;
 }
@@ -230,6 +227,79 @@ body{
     font-size: 18px;
     color: #9d9d9d;
 }
+/*--- styles for solutions2 ---*/ 
+#solutions2{
+    padding-top: 30px;
+}
+#solutions2 .sol_left2{
+    padding-top: 40px;
+}
+#solutions2 .sol_right2{
+    width: 120%;
+}
+#solutions2 .sol_right2 .background_worker {
+    //width: 1100px;
+    padding-top: 10px;
+}
+.bg_worker_hidden{
+    display: none;
+}
+
+#number_scroller{
+    box-sizing: border-box;
+    text-align: center;
+    padding: 0px;
+}
+#number_scroller .icon_cover{
+    height: 90px;
+    text-align: center;
+}
+#number_scroller .cover_coffee{
+    border-radius: 20px;
+}
+#number_scroller .project_icon{
+    padding-top:10px;
+    width: 70px;
+}
+#number_scroller .cup_of_coffee{
+    width: 75px;    
+}
+#number_scroller .client_icon{
+    width: 68px;
+}
+#number_scroller .numscroller{
+    font-size: 24px;
+    color: #46bdff;
+}
+
+#number_scroller.cover_project,
+#number_scroller.cover_coffee,
+#number_scroller.cover_client{
+    padding: 0px;
+    border-radius: 20px !important;
+}
+#number_scroller>.row{
+    margin: 0px;
+    padding: 0px;
+}
+.cover_client{
+    margin-right:0px;
+}
+#number_scroller .cover_coffee_active{
+    background: #fff;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+}
+#number_scroller .cover_project:hover,
+#number_scroller .cover_client:hover,
+#number_scroller .cover_coffee:hover{
+
+    border-radius: 20px;
+    background: #fff;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+    //transition: all 0.3s;
+    
+    
+}
 
 /*
 * ----------------------------------------------------------------------------------------
@@ -241,7 +311,6 @@ body{
 #TESTIMONIAL{
 }
 .testimonial{
-    border: 1px solid red;
     padding: 80px 10px;
 }
 .testimonial .testimonial_left{
@@ -338,17 +407,12 @@ body{
     z-index: 305;
     -moz-transition:all 1s;
     -webkit-transition:all 1s;
-    transition: all 1s; 
+    transition: all 1s;
 }
 .model_m1{
-    width: 200px;
-    display: none;
-    position: inherit;
-    bottom: -4em;
-    z-index: 305;
     -moz-transition:all 1s;
     -webkit-transition:all 1s;
-    transition: all 1s; 
+    transition: all 1s;
 }
 .model_text{
     padding: 5px;
@@ -552,7 +616,7 @@ body{
         width: 100px;
     }
     .square {
-        //padding: 8px;      /*8px -> 0px */
+        padding: 8px;
     }
     .bar1, .bar2, .bar3 {
         width: 1.5em;
@@ -574,7 +638,7 @@ body{
 @media screen and (max-width:991px ){
     #service{
         margin-top: 50px;
-        padding-top: 10px!important;
+        padding-top: 10px !important;
     }
     .services{ 
         padding-left: 0px;
@@ -597,7 +661,7 @@ body{
         width: 650px;
     }
     #solutions .sol_left .character_lady{
-        width: 600px;
+        width: 500px !important;
         margin-left: -30px;
     }
     #solutions .sol_right h2,#solutions2 .sol_left2 h2{
@@ -608,16 +672,16 @@ body{
     }
 
     /*css for owl carousel slider*/
-     #reccomended{
+    #reccomended{
         padding: 0px!important;
-     }
-      #reccomended .owl-nav button.owl-prev,
-      #reccomended .owl-nav button.owl-next{
+    }
+    #reccomended .owl-nav button.owl-prev,
+    #reccomended .owl-nav button.owl-next{
         width: 50px;
         height: 50px;
         border-radius: 50px !important;
         font-size: 30px;
-      }
+    }
     #reccomended img{
         width: 40px;
     }
@@ -628,6 +692,20 @@ body{
         font-size: 16px!important;
     }
 
+
+    #SOLUTIONS .background_left01{
+        width: 52vw;
+    }
+    .bg_worker_hidden{
+        width: 100%;
+        display: block;
+    }
+    .bg_worker_hidden .background_worker{
+        width: auto;
+    }
+    .sol_right2{
+        display: none;
+    }
 }
 @media screen and (max-width:768px ){
     .header_top{
@@ -661,7 +739,7 @@ body{
 
 /*media css for solution section*/
     #SOLUTIONS .background_left01{
-        width: 550px;
+        width: 65vw;
     }
 /*css for owl carousel slider*/
     #reccomended .owl-nav button.owl-prev,
@@ -701,129 +779,138 @@ body{
         width: 100px;
     }
     .square {
-        //padding: 8px;      /*8px -> 0px */
-     }
+        padding: 8px;
+    }
     .bar1, .bar2, .bar3 {
         width: 1.5em;
         height: 4px;
         margin: 4px 0;
     }
+    #SOLUTIONS .background_left01{
+        width: 80vw;
+    }
 
     /*======= Testimonial style css =======*/
-    /*.testimonial{
+    .testimonial{
         border: 1px solid blue;
         width: 100%;
         height: 100%;
     }
-    .testimonial .testimonial_left{}
+    .testimonial{
+        padding: 80px 10px;
+    }
+    .testimonial .testimonial_left{
+        width: 50%;
+        position: relative;
+        margin: 0 auto !important;
+    }
+
     .testimonial .testimonial_left .circle3{
         margin: 0 auto;
-        width: 75%;
-        height:75%;
-        border-radius: 75%;
+        width: 20em;
+        height:20em;
+        border-radius: 20em;
         position: absolute;
         position: relative;
         z-index: 301;
-        left: -20%;
-        border: 1px solid #1B6FCF;
+        left: -4.5em;
+        border: 1px solid #1b6fcfa8;
+        box-shadow: 2px;
     }
     .testimonial .testimonial_left .circle2{
         margin: 0 auto;
-        width: 50%;
-        height: 50%;
-        border-radius: 50%;
+        width: 13em;
+        height: 13em;
+        border-radius: 13em;
         position: absolute;
         position: relative;
         z-index: 302;
-        top: 20.5%;
-        border: 2px solid #1B6FCF;
+        top: 3.5em;
+        border: 2px solid #1b6fcfa8;
     }
     .testimonial .testimonial_left .circle1{
         margin: 0 auto;
-        width: 25%;
-        height: 25%;
-        border-radius: 25%;
+        width: 8em;
+        height: 8em;
+        border-radius: 8em;
         position: absolute;
         position: relative;
         z-index: 303;
-        top: 20.5%;
-        border: 3px solid #1B6FCF;
+        top: 2.5em;
+        border: 3px solid #1b6fcfa8;
     }
     .testimonial .testimonial_left .circle0{
         margin: 0 auto;
-        width: 5%;
-        height: 5%;
+        width: 3em;
+        height: 3em;
         background: #1B6FCF;
-        border-radius: 5%;
+        border-radius: 2em;
         position: absolute;
         position: relative;
         z-index: 304;
-        top: 20.5%;
-        border: 4px solid #1B6FCF;
+        top: 2.5em;
+        border: 4px solid #1b6fcfa8;
     }
     .testimonial_left img{
-        width: 30px;
+        width: 40px;
     }
     .member1,.member2,.member3,.member4,.member5,.member6,.member7{
         position: absolute;
 
     }
     .member1{
-        top: -20%;
-        left: 37%;
+        top: -1em;
+        left: 4em;
     }
     .member2{
-        top: 50%;
-        left: -10%;   
+        top: 3.4em;
+        left: -1.1em;   
     }
     .member3{
-        top: -2em;
-        left: 5.5em;  
+        top: -1em;
+        left: 3.5em;  
     }
     .member4{
-        bottom: -2em;
-        left: 8em;   
+        bottom: -1em;
+        left: 3.6em;   
     }
     .member5{
-        bottom: 8.5em;
-        right: -2em;   
+        bottom: 3.8em;
+        right: -1.2em;  
     }
     .member6{
-        top: -1em;
-        right: 8.3em;
+        top: -0.3em;
+        right: 4.5em;
     }
     .member7{
-        bottom: 1em;
-        right: 5em;
+        bottom: 0.3em;
+        right: 3.5em;
     }
-    /*common property for model members*/
+/*common property for model members*/
     .model_member{
         display: none;
-        width: 200px;
+        width: 100px;
         position: inherit;
-        bottom: -10%;
-        z-index: 305;
-        -moz-transition:all 1s;
-        -webkit-transition:all 1s;
-        transition: all 1s;
-    }
-    .model_m1{
-        width: 30%;
-        display: none;
-        position: inherit;
-        bottom: -10%;
+        bottom: -2.8em;
         z-index: 305;
         -moz-transition:all 1s;
         -webkit-transition:all 1s;
         transition: all 1s; 
     }
+    .model_m1{
+        bottom: -3.5em;
+        -moz-transition:all 1s;
+        -webkit-transition:all 1s;
+        transition: all 1s;
+    }
     .model_text{
+        font-size: 10px;
         padding: 5px;
         background: #1B6FCF;
         color: #fff;
         border: 1px;
         border: 1px solid #fff;
-        border-radius: 5px;       
+        border-radius: 5px;     
     }
     .member1:hover .model_m1{
         display: block;
@@ -846,11 +933,6 @@ body{
     .member7:hover .model_m7{
         display: block;
     }
-
-
-*/
-
-
 
 
 
@@ -881,9 +963,8 @@ body{
         transition: 0.4s;
     }
     .update_box{
-    padding-top: 60px;
-    padding-left:0; 
-
+        padding-top: 60px;
+        padding-left:0; 
     }
     .type-wrap{
         height: 8em;
@@ -908,6 +989,10 @@ body{
    .features-padding {
         padding: 10px 0px;
     }
+    #SOLUTIONS .background_left01{
+        width: 95vw;
+    }
+
 }
 @media screen and (max-width: 440px){
 .header_img01{
@@ -937,8 +1022,8 @@ body{
         transition: 0.4s;
     }
     .update_box{
-    padding-top: 55px;
-    padding-left:0;
+        padding-top: 55px;
+        padding-left:0;
 
     }
     .type-wrap{
@@ -1017,4 +1102,15 @@ body{
         cursor: pointer;
         padding: 7px;
     }
+}
+
+
+
+/* box shadow my style*/
+.hvr-box-shadow:hover,.hvr-box-shadow:focus,.hvr-box-shadow:active{
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s;
+        -webkit-transform: translateY(-0.8rem);
+                transform: translateY(-0.8rem); 
+    
 }
