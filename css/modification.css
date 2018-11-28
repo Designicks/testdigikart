@@ -201,11 +201,14 @@ body{
 #solutions .sol_left .character_lady{
     width: 700px !important;
     margin-left: -100px;
-    box-sizing: border-box;
 }
 #solutions .sol_right{
     padding: 30px 10px;
     padding-bottom: 0px;
+}
+#reccomended h4{
+    font-size: 16px;
+    font-weight: 500;
 }
 #solutions .sol_right .heading_services,.sol_left2 .heading_services{
     font-size: 25px;
@@ -224,7 +227,7 @@ body{
 #solutions .sol_right p,#solutions2 .sol_left2 p{
     padding:15px 0;
     line-height: 20px;
-    font-size: 18px;
+    font-size: 16px;
     color: #9d9d9d;
 }
 /*--- styles for solutions2 ---*/ 
@@ -272,12 +275,18 @@ body{
     color: #46bdff;
 }
 
-#number_scroller.cover_project,
-#number_scroller.cover_coffee,
-#number_scroller.cover_client{
-    padding: 0px;
-    border-radius: 20px !important;
+#number_scroller .cover_project,
+#number_scroller .cover_coffee,
+#number_scroller .cover_client{
+    width: 140px; 
+    padding: 5px !important;
+    border-radius: 8px !important;
+    margin: 0 auto;
 }
+#number_scroller h5{
+    font-size: 16px;
+}
+
 #number_scroller>.row{
     margin: 0px;
     padding: 0px;
@@ -293,7 +302,7 @@ body{
 #number_scroller .cover_client:hover,
 #number_scroller .cover_coffee:hover{
 
-    border-radius: 20px;
+    //border-radius: 8px;
     background: #fff;
     box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
     //transition: all 0.3s;
@@ -579,7 +588,7 @@ body{
     }
     .features .heading_features_main{
         font-size: 30px;
-        font-weight: 400;
+        font-weight: 600;
     }
 
     #solutions .sol_left .character_lady{
@@ -653,7 +662,14 @@ body{
 
     /*media css for features box section*/
     .single-feature .heading_features h2{
-        font-size: 16px;
+        font-size: 14px;
+    }
+    .single-feature {
+        padding: 15px;
+        margin-bottom: 15px;
+    }
+    .single-feature .feature-icon i{
+        font-size: 40px;
     }
     
     /*media css for solution section*/
@@ -686,7 +702,7 @@ body{
         width: 40px;
     }
     #reccomended h4{
-        font-size: 16px!important;
+        font-size: 16px;
     }
     #reccomended .owl-carousel .owl-item h4{ 
         font-size: 16px!important;
@@ -765,7 +781,7 @@ body{
         font-weight: 700;
         font-size: 4.5vw !important;
     }
-    .btns {
+     .btns {
     }
     .btns .btn_services{
         font-size: 16px;
@@ -792,7 +808,6 @@ body{
 
     /*======= Testimonial style css =======*/
     .testimonial{
-        border: 1px solid blue;
         width: 100%;
         height: 100%;
     }
@@ -991,6 +1006,10 @@ body{
     }
     #SOLUTIONS .background_left01{
         width: 95vw;
+    }
+    #reccomended h4{
+        font-size: 14px;
+        font-weight: 300;
     }
 
 }
