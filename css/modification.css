@@ -765,7 +765,7 @@ body{
         font-weight: 700;
         font-size: 4.5vw !important;
     }
-     .btns {
+    .btns {
     }
     .btns .btn_services{
         font-size: 16px;
@@ -813,7 +813,7 @@ body{
         position: absolute;
         position: relative;
         z-index: 301;
-        left: -4.5em;
+        left: 0em;
         border: 1px solid #1b6fcfa8;
         box-shadow: 2px;
     }
