@@ -94,9 +94,10 @@ body{
     //background: #FF9800 !important;
     height: 500px;
     padding: 10px;
+    padding-left: 0px;
     //padding-bottom:200px;  
     //line-height: 4.5em;
-       box-sizing: border-box;
+    box-sizing: border-box;
 }
 .type-wrap span{
     white-space: unset !important;
@@ -317,6 +318,37 @@ body{
 * ----------------------------------------------------------------------------------------
 */
 
+/* ====== CONTACT Styles Here ======*/
+#CONTACT{
+    padding: 30px 0;
+    padding-top: 50px;
+    //border: 1px solid red;
+}
+.contact{
+    //border: 1px solid blue;
+    text-align: center;
+
+}
+.contact h2{
+    font-weight: 500;
+    color: #1B6FCF;
+    margin-bottom: 0px;
+}
+.contact p{
+    //margin-top: 0px;
+    font-size: 14px;
+    color: #9d9d9d;
+}
+.btn_contact{
+    margin: 10px;
+    font-size: 24px;
+    background: #1B6FCF;
+    border-radius: 30px;
+    padding: 5px 35px;
+}
+/* ====== CONTACT Styles ends ======*/
+
+
 /* ====== TESTIMONIALS Styles Here ======*/ 
 #TESTIMONIAL{
 }
@@ -458,6 +490,90 @@ body{
     
 }
 
+/*blog styles start here*/
+.blog_header{
+    padding: 20px;
+}
+.blog_header .title_blog{
+    text-align: left;
+    font-size: 32px;
+    font-weight: 500;
+    color: #1B6FCF;
+}
+.blog_header .btn_more{
+    text-align: right; 
+
+}
+.btn_more .btn{
+    background: #fff;
+    color: #9d9d9d;
+    border: 1px solid #9d9d9d; 
+    border-radius: 30px;
+    padding: 5px 20px;
+}
+.recommended_blog{
+    height: 300px;
+}.recommended_blog .blog_item{  
+    
+}
+.recommended_blog .blog_item img{
+    width: 200px;
+}
+
+
+
+/*testing slider*/
+#slider_container{
+    padding:0px !important;
+}
+.owl-carousel,#reccomended{
+    padding:0px !important;
+}
+
+.owl-item{
+    height: 150px !important;
+    box-sizing: border-box; 
+    margin-right: 5px !important;
+    margin-left: 4px !important;
+}
+.item{
+    background: #fff0;
+    padding-top:20px;
+    text-align: center;
+    color:#000;
+    height: 100%;
+}
+
+/*---- for 990px and less ----*/
+@media screen and (max-width:990px ){
+    #slider_container{
+        padding:0px !important;
+    }
+    .owl-carousel,#reccomended{
+        padding:0px !important;
+    }
+
+    .owl-item{
+        width: 150px!important;
+        height: 150px !important;
+        box-sizing: border-box; 
+        margin-right: 50px !important;
+        margin-left: 40px !important;
+    }
+    .item{
+        background: #fff0;
+        padding-top:20px;
+        text-align: center;
+        color:#000;
+        height: 100%;
+    }
+
+    .owl-stage-outer{
+        height: 150px;
+    }
+
+}
+
 
 /*---- for 1200 and more ----*/
 @media screen and (min-width:1200px ){
@@ -476,6 +592,7 @@ body{
     .type-wrap{
         height: 350px;
         padding: 10px;
+        padding-left: 0px;
     }
     .type-wrap span{
         font-size: 4.5vw ;
@@ -563,6 +680,7 @@ body{
     .type-wrap{
         height: 400px;
         padding: 10px;
+        padding-left: 0px;
     }
     .type-wrap span{
         font-size: 4.5vw;
@@ -605,6 +723,7 @@ body{
     .type-wrap{
         height: 300px;
         padding: 10px;
+        padding-left: 0px; 
     }
     .type-wrap span{
         font-size: 4.5vw;
@@ -766,12 +885,28 @@ body{
         border-radius: 45px !important;
         font-size: 25px;
       }
+      /*testing slider*/
+    #slider_container{
+        padding:0px !important;
+        width: 450px !important;
+    }
+    .owl-carousel,#reccomended{
+        padding:0px !important;
+    }
+
+    .owl-item{
+        //height: 150px !important;
+        margin-right: 2px !important;
+        margin-left: 0px !important;
+    }
 
 }
+
+
 @media screen and (max-width:576px ){
-     .update_box{
+    .update_box{
         padding-top: 60px;
-        padding-left:0; 
+        padding-left:0;
     }
     .type-wrap{
         height: 7.5em;
@@ -782,8 +917,7 @@ body{
         font-weight: 700;
         font-size: 4.5vw !important;
     }
-     .btns {
-    }
+    .btns{}
     .btns .btn_services{
         font-size: 16px;
         font-weight: 500;
@@ -803,8 +937,13 @@ body{
         height: 4px;
         margin: 4px 0;
     }
+
+    /*======= Solution style css =======*/
     #SOLUTIONS .background_left01{
         width: 80vw;
+    }
+    .cover_project,.cover_coffee,.cover_client{
+        margin-top: 15px !important;
     }
 
     /*======= Testimonial style css =======*/
@@ -950,6 +1089,21 @@ body{
         display: block;
     }
 
+      /*testing slider*/
+    #slider_container{
+        padding:0px !important;
+        width: 100% !important;
+    }
+    .owl-carousel,#reccomended{
+        padding:0px !important;
+    }
+
+    .owl-item{
+        //height: 150px !important;
+        margin-right: 2px !important;
+        margin-left: 0px !important;
+    }
+
 
 
 }
@@ -1027,7 +1181,7 @@ body{
   }
   .header_img02{
     display: block;
-    //margin-top: 9em; 
+    margin-top: 6em; 
     }
     .square {
         display: inline-block;
@@ -1088,7 +1242,7 @@ body{
         transition: 0.4s;
     }
     .header_img02{
-        margin-top: 20px;
+       margin-top: 4em; 
     }
     .service_row1,.service_row2{
         margin: 0 auto;
@@ -1108,7 +1262,10 @@ body{
     }
     .logo img{
         width: 100px;
-    }  
+    } 
+    .header_img02{
+       margin-top: 1em; 
+    } 
    /* .btn_startproject{
     float: left;
     font-size: 15px;
@@ -1134,3 +1291,4 @@ body{
                 transform: translateY(-0.8rem); 
     
 }
+
