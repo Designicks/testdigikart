@@ -519,7 +519,6 @@ body{
 #PORTFOLIO{
     position: relative;
     margin-top: 3em;
-    border: 1px solid red;
     /*background-image: url("../images/portfolio_bg-01.svg");
     background-attachment: ;
     background-size: 100% 100%;
@@ -729,10 +728,10 @@ body{
 
 /*------- CONTACT US ---------*/
 #CONTACTUS{
-    border: 1px solid red;
+    //border: 1px solid red;
 }
 .contactus{
-    border: 1px solid red;
+    //border: 1px solid red;
 }
 .contactus .btn_contact{
     margin-top: 1.4em;
@@ -741,7 +740,7 @@ body{
 }
 
 .contact_box01{
-    border: 1px solid blue;
+    //border: 1px solid blue;
 }
 .contact_icons{
     //padding: 20px;
