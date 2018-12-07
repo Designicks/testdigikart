@@ -65,6 +65,7 @@
 }
 
 .owl-carousel .owl-item img {
+    padding-top: 8px;
     display: inline;
     width:auto;
 }
