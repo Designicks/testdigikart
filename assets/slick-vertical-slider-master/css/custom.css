@@ -16,7 +16,12 @@
 /*.featuredPostSlider h2 { width: 65%; position: absolute; left: 5%; color: #fff; font-size: 36px; }
 
 /* line 37, ../scss/custom.scss */
-#slick-pager {/*background-color: #fff;*/ position: absolute; right: 20%; width: 30%;  float: left; z-index: 5; top: -500px; }
+#slick-pager {/*background-color: #fff;*/ 
+  position: absolute; 
+  right: 20%; width: 30%;  
+  float: ; z-index: 5; 
+  top: -500px; 
+  //border: 2px solid #000; }
 /* line 44, ../scss/custom.scss */
 #slick-pager a {background-color: #fff; padding: 10px 15px; width: 100%; /*float: left;*/ border-radius: 10px 10px 10px 10px; border: 1px solid rgba(255, 255, 255, 0.6); /*border: 1px solid #1B6FCF;*/ color: #fff; /*text-decoration: none;*/ }
 /* line 51, ../scss/custom.scss */
@@ -41,10 +46,19 @@
 .slick-pager { margin-top: 30px; margin-bottom: 0; }
 
 /* line 87, ../scss/custom.scss */
-.pagerNavigation i { float: left; width: 100%; margin-top: 0px; color: #5b74e5;/* background-color: #fff;*/}
+.pagerNavigation i { 
+float: left; 
+//width: 100%; 
+margin-top: 0px; 
+color: #5b74e5;/* background-color: #fff;*/}
 
 /* line 93, ../scss/custom.scss */
-.pagerNavigationTop { font-size: 35px; text-align: left; position: absolute; right: 0; width: 100%; cursor: pointer;
+.pagerNavigationTop { 
+  font-size: 35px; 
+  text-align: left; 
+  position: absolute; right: 0;
+ //width: 100%; 
+ cursor: pointer;
 /*top: -35px;*/ left: 95%;}
 .pagerNavigationTop *{
   background-color: none;
@@ -55,14 +69,22 @@
 /* line 116, ../scss/custom.scss */
 .test  { position: relative; }
 
-@media (min-width: 768px) { /* line 119, ../scss/custom.scss */
-  .test{ width: 620px; } }
-@media (min-width: 992px) { /* line 120, ../scss/custom.scss */
-  .test { width: 1000px; } }
-@media (min-width: 1200px) { /* line 121, ../scss/custom.scss */
-  .test { width: 1170px; } }
-@media (max-width: 1000px) { /* line 124, ../scss/custom.scss */
-  .slick-pager { margin: 1 auto; }
+@media (min-width: 768px) { 
+  /* line 119, ../scss/custom.scss */
+  .test{ width: 620px; } 
+}
+@media (min-width: 992px) 
+{ /* line 120, ../scss/custom.scss */
+  .test { width: 1000px; } 
+}
+@media (min-width: 1200px) 
+{ /* line 121, ../scss/custom.scss */
+  .test { width: 1170px; } 
+}
+@media (max-width: 1000px) 
+{ /* line 124, ../scss/custom.scss */
+  .slick-pager { margin: 0; 
+  }
   /* line 125, ../scss/custom.scss */
   #slick-pager { background-color: #fff; width: 90%; position: relative; top: 50px; right: -9px; }
   /* line 129, ../scss/custom.scss */
