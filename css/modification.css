@@ -322,7 +322,7 @@ body{
 /* ====== CONTACT Styles Here ======*/
 #CONTACT{
     padding: 30px 0;
-    padding-top: 50px;
+    padding-top: 10%;
     //border: 1px solid red;
 }
 .contact{
@@ -541,6 +541,7 @@ body{
     font-size: 50px;
     font-weight: 800;
     color: #fff;
+    padding-top: 15%;
 }
 .btn_tabs{
     padding-top: 20px;
@@ -605,6 +606,7 @@ body{
     padding: 20px;
 }
 .app_heading{
+    color: #fff;
     padding-top: 10px;
 }
 
@@ -728,10 +730,10 @@ body{
 
 /*------- CONTACT US ---------*/
 #CONTACTUS{
-    //border: 1px solid red;
+
 }
 .contactus{
-    //border: 1px solid red;
+
 }
 .contactus .btn_contact{
     margin-top: 1.4em;
@@ -740,13 +742,13 @@ body{
 }
 
 .contact_box01{
-    //border: 1px solid blue;
+
 }
 .contact_icons{
     //padding: 20px;
     font-size: 30px;
     color: #1B6FCF;
-    //border: 1px solid blue;
+
     margin: 0px;
     padding-top: 20px;
 }
@@ -766,14 +768,25 @@ body{
 /*new contactus*/
 .contactus .single-feature{
     padding: 15px;
-    margin: 0px; 
+    margin: 0px;
     border: none;
     box-shadow: none;
     background: none;
+    height: 100px;
+}
+.features-area .contactus .contact_box *{
+    //margin: 0 auto;
+    //text-align: center!important;
+    margin-left: 1em!important;
+}
+.features-area .contactus .btn_contact *{
 }
 .contactus .heading_features{
-    padding: 3px;
+    padding: 10px !important;
     margin: 8px; 
+
+}
+.contactus .contact_details{
 }
 
 
@@ -1284,6 +1297,7 @@ body{
         //width: 80px;
         text-align: center;
     }
+    .
 
 
     /*======= Solution style css =======*/
@@ -1516,20 +1530,20 @@ body{
     }
 
 }
-@media screen and (max-width: 440px){
-.header_img01{
-    display: block;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    z-index: -100;
+@media screen and (max-width: 441px){
+    .header_img01{
+        display: block;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        z-index: -100;
     }
-  .header_img12{
-    display: none;
-  }
-  .header_img02{
-    display: block;
-    margin-top: 6em; 
+    .header_img12{
+        display: none;
+    }
+    .header_img02{
+        display: block;
+        margin-top: 6em; 
     }
     .square {
         display: inline-block;
@@ -1568,8 +1582,8 @@ body{
      /*--- portfolio styles ---*/
     .btn_tabs{
         padding-top: 20px;
-        width: 75vw;
-        margin: 0 auto;
+        width: 80vw;
+        margin-left: 0px!important;
     }
     .nav-pills *{
         margin: 0 auto;
@@ -1578,12 +1592,12 @@ body{
     .nav-pills .nav-links{
         text-align: left;
         margin: 0 auto;
-        padding:0.2rem !important;
+        padding:0rem !important;
     }
     .btn_tabs ul li{
         margin-left: 0px;
         margin-right: 0px;
-        text-align: center;
+        padding: 10px;
     }
     .btn_tabs ul li:hover{
        font-weight: 500;
@@ -1593,7 +1607,18 @@ body{
         color:#fff !important;
         width: auto;
         text-align: center;
+        padding: 0.1em!important;
     }
+    .nav-pills{
+        width: auto;
+        //min-width: 60vw;
+
+    }
+     .app_heading{
+        font-size: 1em;
+        color: #1B6FCF;
+    }
+
 
 
 }
@@ -1628,6 +1653,48 @@ body{
         width: 90%!important; 
     }
 
+     /*--- portfolio styles ---*/
+    .btn_tabs{
+        padding-top: 20px;
+        width: 82vw;
+        margin-left: -15px!important;
+    }
+    .nav-pills *{
+        margin: 0 auto;
+        text-align: left;
+    }
+    .nav-pills .nav-links{
+        text-align: left;
+        margin: 0 auto;
+        padding:0rem ;
+    }
+    .btn_tabs ul li{
+        padding: 3px;
+    
+    }
+    .btn_tabs ul li:hover{
+       font-weight: 500;
+       color: #fff;
+    }
+    .btn_tabs li a{
+        color:#fff ;
+        width: auto;
+        text-align: center;
+         padding: 0.2em;
+    }
+    .one{
+        min-width: 200px;
+        width: auto;   
+    }
+    .apps{
+        border: 1px solid red;
+        width: 150px;
+
+    }
+    .app_heading{
+        font-size: 1em;
+    }
+
 }
 
 @media screen and (max-width: 320px){
@@ -1658,6 +1725,15 @@ body{
         cursor: pointer;
         padding: 7px;
     }
+
+
+    .btn_tabs li a{
+        color:#fff !important;
+        width: auto;
+        text-align: center;
+         padding: 0.1em;
+    }
+
 }
 
 
