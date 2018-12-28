@@ -119,13 +119,13 @@ body{
 /*Services starts*/
 
 #service{
-    margin-top: 10%;
+    margin-top: 15%;
     padding-top: 50px;
 }
 .services .service_row1 img,.services .service_row2 img{
-    padding: 20px;
+    padding: 5px!important;
 }
-.services .service_row1 .css_service{
+.services .service_row2 .css_service{
     max-width: 170px;
     width: auto;
     box-sizing: border-box;
@@ -147,16 +147,16 @@ body{
     padding-left: 20px;
 }
 .features .heading_features_main{
-    color: #1B6FCF;
-    font-size: 36px;
-    font-weight: 600;
+    color: #4A4549;
+    font-size: 42px;
+    font-weight: 900;
     margin: 0 auto;
     text-align: center;
     padding: 35px;
     margin-bottom: 20px;
 }
 .single-feature .heading_features h2{
-    font-size: 20px;
+    font-size: 25px!important;
     font-weight: 500;
     color: #1B6FCF;
     margin-top: 8px;
@@ -235,17 +235,20 @@ body{
 /*--- styles for solutions2 ---*/ 
 #solutions2{
     padding-top: 30px;
+
 }
 #solutions2 .sol_left2{
     padding-top: 40px;
 }
 #solutions2 .sol_right2{
     width: 100%;
+    
 }
 #solutions2 .sol_right2 .background_worker {
     //width: 1100px;
     //width: 500px !important;
     padding-top: 10px;
+    margin-right: -90px;
 }
 .bg_worker_hidden{
     display: none;
@@ -540,7 +543,7 @@ body{
     text-align: center; 
     font-size: 50px;
     font-weight: 800;
-    color: #fff;
+    color: #4A4549;
     padding-top: 15%;
 }
 .btn_tabs{
@@ -572,9 +575,11 @@ body{
    color: #fff;
 }
 .btn_tabs li a{
-    color:#fff !important;
+    color:#4A4549 !important;
     //width: 80px;
     text-align: center;
+    border: 1px solid #0052AA;
+    border-radius: 15px !important;
 }
 
 .nav-pills .nav-link{
@@ -591,7 +596,7 @@ body{
     //border-bottom: 1px solid #fff;
 }
 .nav-pills{
-    border-bottom: 2px solid #fff;   
+   // border-bottom: 2px solid #fff;   
 }
 
 .tabs_container{
@@ -813,8 +818,8 @@ body{
         font-size: 4.5vw;
     }
     .btns {
-        padding-top: 20px;
-        margin-top: 10px;
+        padding-top: 0px;
+        //margin-top: 95px;
     }
     .btns .btn_services{
         font-size: 20px;
@@ -831,7 +836,7 @@ body{
 
     #PORTFOLIO{
         position: relative;
-        margin-top: 7em;
+        margin-top: 0em;
     }
     .image_bg_center{
         width: 100%;
@@ -848,7 +853,7 @@ body{
         text-align: center; 
         font-size: 60px;
         font-weight: 1000;
-        color: #fff;
+        color: #4A4549;
     }
     .btn_tabs{
         padding-top: 20px;
