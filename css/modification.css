@@ -1,5 +1,11 @@
 body{
     background: #fff8f8;
+    //background-image: linear-gradient(to right  ,#3F96FF 10% , #0052AA 100%);
+    /* radial-gradient(at 50% 0, black, transparent 70%),
+    linear-gradient(0deg, black, transparent 50%) bottom;
+  background-size: 100% 15px;
+  background-repeat: no-repeat;*/
+
 }
 .container-fluid{
     //box-sizing: border-box;
@@ -58,7 +64,8 @@ body{
     display: inline-block;
     cursor: pointer;
     padding: 10px;
-    border-radius: 50%;
+    border-radius: 50% ;
+    border: 3px solid #fff;
 }
 
 .bar1, .bar2, .bar3 {
@@ -67,11 +74,13 @@ body{
     background-color: #fff;
     margin: 6px 0;
     margin:0 auto;
-    transition: 0.4s;
+   // transition: 0.4s;
     clear: both;
     border-radius: 2px;
-} 
+    transition: transform 330ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
+  } 
 .change .bar1 {
+
     -webkit-transform: rotate(-45deg) translate(-9px, 6px);
     transform: rotate(-45deg) translate(-9px, 6px);
 }
@@ -79,6 +88,7 @@ body{
 .change .bar2 {opacity: 0;}
 
 .change .bar3 {
+
     -webkit-transform: rotate(45deg) translate(-8px, -8px);
     transform: rotate(45deg) translate(-8px, -8px);
 }
@@ -113,17 +123,36 @@ body{
     letter-spacing: 2px;
     font-size: 20px;
     font-weight: 500;
-    padding:10px 20px;
+    padding:10px 10px;
     border: 1px solid #fff;
 }
 /*Services starts*/
 
 #service{
-    margin-top: 10%;
+    display:inline-block; 
+    margin-top: 15%;
     padding-top: 50px;
+    padding-left: 180px;
 }
 .services .service_row1 img,.services .service_row2 img{
-    padding: 20px;
+  /*  padding: 10px;
+    padding-left: 15px;
+      width: 120px;
+    //padding-left: 50px;
+   // padding-right: 20px;
+    //margin-top: 1px;
+    //margin-right: 100px;
+     //margin-left: 70px;
+    //margin-bottom: 10px;
+   // padding-left: ($spacer * .5) !important;
+ // padding-right: ($spacer * .5) !important;
+*/
+        padding: 10px;
+        width: 120px;
+        height: 60px;
+        padding-right: 0px;
+        padding-left: 0px;
+
 }
 .services .service_row1 .css_service{
     max-width: 170px;
@@ -170,14 +199,16 @@ body{
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
     padding: 30px;
     margin-bottom: 30px;
-    border-radius: 10px;
+   // border-radius: 10px;
     background: #fff;
 }
 .feature-icon i {
     font-size: 60px;
     margin-bottom: 0px;
     text-align: center;
+
 }
+
 /*
 * ----------------------------------------------------------------------------------------
 * SOLUTIONS CSS STYLE
@@ -322,7 +353,7 @@ body{
 /* ====== CONTACT Styles Here ======*/
 #CONTACT{
     padding: 30px 0;
-    padding-top: 10%;
+    padding-top: 0%;
     //border: 1px solid red;
 }
 .contact{
@@ -540,8 +571,8 @@ body{
     text-align: center; 
     font-size: 50px;
     font-weight: 800;
-    color: #fff;
-    padding-top: 15%;
+    color: #46bdff;
+    padding-top: 0%;
 }
 .btn_tabs{
     padding-top: 20px;
@@ -554,6 +585,7 @@ body{
 .nav-pills *{
     margin: 0 auto;
     text-align: center;
+
 }
 .nav-pills .nav-links{
     text-align: center;
@@ -566,15 +598,19 @@ body{
     //margin-left: 0px;
     //margin-right: 0px;
     text-align: center;
+
 }
 .btn_tabs ul li:hover{
    font-weight: 500;
    color: #fff;
 }
 .btn_tabs li a{
-    color:#fff !important;
-    //width: 80px;
+    color:#000 !important;
+    width: 100px;
     text-align: center;
+    border: 1px solid #1B6FCF;
+    border-radius: 20px!important;
+    font-weight: 200;
 }
 
 .nav-pills .nav-link{
@@ -584,14 +620,21 @@ body{
 }
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     font-weight: 500;
-}
 
+}
+/*.nav-pills .nav-link :hover, .nav-link .nav-pills:focus {
+
+    text-decoration: none;
+    border-bottom: 5px solid #fff !important;
+    
+}
+*/
 .nav-pills .nav-item{
-    padding-bottom: 10px;
+    //padding-bottom: 10px;
     //border-bottom: 1px solid #fff;
 }
 .nav-pills{
-    border-bottom: 2px solid #fff;   
+   // border-bottom: 2px solid #fff;   
 }
 
 .tabs_container{
@@ -606,7 +649,7 @@ body{
     padding: 20px;
 }
 .app_heading{
-    color: #fff;
+    color: #000;
     padding-top: 10px;
 }
 
@@ -618,7 +661,7 @@ body{
 }
 .blog_header .title_blog{
     padding: 10px;
-    text-align: left;
+    //text-align: left;
     font-size: 36px;
     font-weight: 600;
     color: #1B6FCF;
@@ -657,7 +700,7 @@ body{
     padding: 15px;
     color:#1B6FCF;
     background-color: #fff;
-    border-radius: 0px 0px 10px 10px; 
+    border-radius: 0px 0px 0px 0px; 
     border: 1px solid #1B6FCF;
 }
 
@@ -773,11 +816,13 @@ body{
     box-shadow: none;
     background: none;
     height: 100px;
+
 }
 .features-area .contactus .contact_box *{
     //margin: 0 auto;
     //text-align: center!important;
     margin-left: 1em!important;
+
 }
 .features-area .contactus .btn_contact *{
 }
@@ -785,11 +830,20 @@ body{
     padding: 10px !important;
     margin: 8px; 
 
+
 }
 .contactus .contact_details{
+
 }
 
-
+/*hr{ 
+  
+    border:         none;
+    border-left:    1px solid hsla(200, 10%, 50%,100);
+    height:         10vh;
+   // width:          1px; 
+   float: left;      
+}*/
 /*---- for 1200 and more ----*/
 @media screen and (min-width:1200px ){
     .square {
@@ -813,8 +867,9 @@ body{
         font-size: 4.5vw;
     }
     .btns {
-        padding-top: 20px;
-        margin-top: 10px;
+        padding-top: 0px;
+        margin-top: -40px;
+
     }
     .btns .btn_services{
         font-size: 20px;
@@ -830,6 +885,135 @@ body{
 /*-- PORTFOLIO styles --*/
 
     #PORTFOLIO{
+        position: relative;
+        margin-top: 7em;
+    }
+    .image_bg_center{
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: -100px;
+        z-index: -100;
+        height: 100em;
+    }
+    #portfolio_container{
+        padding: 50px 40px;
+    }
+    #portfolio_container .portfolio_header h1{
+        text-align: center; 
+        font-size: 60px;
+        font-weight: 1000;
+       // color: #fff;
+    }
+    .btn_tabs{
+        padding-top: 20px;
+        width: 40em;
+        margin: 0 auto;
+         
+    }
+    .nav-pills *{
+        margin: 0 auto;
+        text-align: center;
+    }
+    .btn_tabs ul li{
+        //margin-left: 0px;
+        //margin-right: 0px;
+        text-align: center;
+    }
+    .btn_tabs ul li:hover{
+       font-weight: 500;
+       color: #fff!important;
+    }
+    .btn_tabs li a{
+        //color:#000 !important;
+        //width: 80px;
+        //text-align: center;
+    }
+
+    .nav-pills .nav-link{
+        //border-radius: 20px;
+        background-color: none;
+
+
+    }
+    .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+        font-weight: 500;
+       // border-bottom: 4px solid #fff;
+      // margin-bottom: -100px;
+    }
+
+    .nav-pills .nav-item{
+        padding-bottom: 10px;
+        //border-bottom: 1px solid #fff;
+    }
+    .nav-pills{
+       // border-bottom: 2px solid #fff;   
+    }
+
+    .tabs_container{
+     padding: 40px 20px; 
+    }
+
+    .apps{
+        width: 150px;
+    }
+    .one{
+        text-align:center;
+        padding: 20px;
+    }
+    .app_heading{
+        padding-top: 10px;
+    }
+
+#service{
+    display:inline-block; 
+    margin-top: 18%;
+    padding-top: 50px;
+   // padding-left: 390px;
+}
+
+}
+
+
+/*@media screen and (min-width:1900px ) {
+    /*.square {
+        padding: 10px;
+
+    }
+    .bar1, .bar2, .bar3 {
+        width: 30px;
+        height: 5px;
+        margin: 6px 0;
+    }
+    .update_box{
+        padding-top: 110px;
+    }
+    .type-wrap{
+        height: 350px;
+        padding: 10px;
+        padding-left: 0px;
+    }
+    .type-wrap span{
+        font-size: 4.5vw;
+    }
+    .btns {
+      //  padding-top: 80px!important;
+       // margin-top: 100px !important;
+    }
+    .btns .btn_services{
+        font-size: 20px;
+        padding:10px 20px;
+        border: 1px solid #fff;
+    }
+    #SOLUTIONS .background_left01{
+        width: 600px;
+    }
+
+
+
+/*-- PORTFOLIO styles --*/
+
+ /*   #PORTFOLIO{
         position: relative;
         margin-top: 7em;
     }
@@ -879,9 +1063,12 @@ body{
         //border-radius: 20px;
         background-color: none;
 
+
     }
     .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
         font-weight: 500;
+       // border-bottom: 4px solid #fff;
+      // margin-bottom: -100px;
     }
 
     .nav-pills .nav-item{
@@ -910,6 +1097,7 @@ body{
 
 
 }
+*/
 
 /*---- for 1440px to 1680px ----*/
 @media screen and (min-width:1440px ) and (max-width: 1680px){
@@ -923,6 +1111,13 @@ body{
         display: block;
         height: 5em;
     }
+    #service{
+    display:inline-block; 
+    margin-top: 18%;
+    padding-top: 50px;
+    padding-left: 310px;
+}
+
 }
 /*---- for 1680px to 1998px ----*/
 @media screen and (min-width:1680px ) and (max-width: 1998px){
@@ -959,6 +1154,12 @@ body{
         height: 5px;
         margin: 6px 0;
     }
+    #service{
+    display:inline-block; 
+    margin-top: 15%;
+    padding-top: 50px;
+    padding-left: 480px;
+}
 }
 
 /*---- for 1200 and less ----*/
@@ -1065,8 +1266,9 @@ body{
 /*--- for 991px and less ---*/
 @media screen and (max-width:991px ){
     #service{
-        margin-top: 50px;
+        margin-top: 120px;
         padding-top: 10px !important;
+        padding-left: 200px;
     }
     .services{ 
         padding-left: 0px;
@@ -1293,7 +1495,7 @@ body{
        color: #fff;
     }
     .btn_tabs li a{
-        color:#fff !important;
+        color:#000 !important;
         //width: 80px;
         text-align: center;
     }
@@ -1330,7 +1532,7 @@ body{
         position: absolute;
         position: relative;
         z-index: 301;
-        left: 0em;
+        //left: 0em;
         border: 1px solid #1b6fcfa8;
         box-shadow: 2px;
     }
@@ -1466,7 +1668,12 @@ body{
         margin-left: 0px !important;
     }
 
-
+#service{
+    //display:inline-block; 
+    //margin-top: 18%;
+    //padding-top: 50px;
+    padding-left: 10px;
+}
 
 }
 /*-- for 481px and less --*/
@@ -1517,6 +1724,7 @@ body{
     #service{
         margin-top: 10px;
         padding-top: 10px; 
+        padding-left: 0px;
     }
    .features-padding {
         padding: 10px 0px;
@@ -1604,10 +1812,11 @@ body{
        color: #fff;
     }
     .btn_tabs li a{
-        color:#fff !important;
+        color:#000 !important;
         width: auto;
         text-align: center;
-        padding: 0.1em!important;
+        padding: 0.33em!important;
+        font-weight: 200;
     }
     .nav-pills{
         width: auto;
@@ -1677,7 +1886,7 @@ body{
        color: #fff;
     }
     .btn_tabs li a{
-        color:#fff ;
+        color:#000 ;
         width: auto;
         text-align: center;
          padding: 0.2em;
@@ -1728,7 +1937,7 @@ body{
 
 
     .btn_tabs li a{
-        color:#fff !important;
+        color:#000 !important;
         width: auto;
         text-align: center;
          padding: 0.1em;
@@ -1782,3 +1991,48 @@ body{
   -webkit-transform: translateY(0);
   transform: translateY(0);
 }
+
+ /*footer style */
+/*
+.footer{ 
+    width:100%; 
+    background:#e40001; 
+    color:#fff; 
+    padding:20px 0px;}
+.footer ul{ 
+    list-style:none; 
+    padding:0;
+    margin:0;}
+.footer ul li{}
+.footer ul li a{
+   font-size:20px; 
+   color:#FFF;}
+.footer p{ 
+    position: absolute;
+   font-size:20px;
+   margin-left: 3em;
+}
+
+
+.footer_contact{
+ 
+margin-left:2em !important;
+ margin-top:-1.8em;
+}
+.footer_box{
+
+  position: relative;
+
+}
+.footer_box .footer_icon{
+    position: absolute;
+    float: left!important;
+}
+@media (max-width: 990px) 
+{ 
+  .footer_contact {
+ margin-left:3em;
+ margin-top:0; } 
+ .footer_box .footer_icon{
+    float: left!important;
+}*/
