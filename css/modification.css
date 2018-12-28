@@ -125,7 +125,7 @@ body{
     margin-right: 120px;
 }
 .services .service_row1 img,.services .service_row2 img{
-    padding: 5px!important;
+    padding: 10px!important;
 }
 .services .service_row2 .css_service{
     max-width: 140px;
