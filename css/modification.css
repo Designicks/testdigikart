@@ -121,12 +121,14 @@ body{
 #service{
     margin-top: 15%;
     padding-top: 50px;
+    margin-left: 120px;
+    margin-right: 120px;
 }
 .services .service_row1 img,.services .service_row2 img{
     padding: 5px!important;
 }
 .services .service_row2 .css_service{
-    max-width: 170px;
+    max-width: 140px;
     width: auto;
     box-sizing: border-box;
 }
