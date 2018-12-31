@@ -134,7 +134,7 @@ body{
     padding: 10px!important;
 }
 .services .service_row2 .css_service{
-    max-width: 120px!important;
+    max-width: 120px;
     width: auto;
     box-sizing: border-box;
 }
@@ -169,7 +169,7 @@ body{
     font-size: 25px!important;
     font-weight: 300;
     color: #1B6FCF;
-    margin-top: 8px;
+    margin-top: 10px;
     font-family: 'Poppins';
 }
 .features-padding {
@@ -179,8 +179,8 @@ body{
     background: #fff;
     border: 1px solid #eee;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-    padding: 30px;
-    margin-bottom: 30px;
+    padding: 20px 20px;
+    margin-bottom: 20px;
     border-radius: 2px;
     background: #fff;
 }
@@ -1250,7 +1250,7 @@ opacity: 0.4;
 
     /*media css for features box section*/
     .single-feature .heading_features h2{
-        font-size: 14px;
+        font-size: 14px!important;
     }
     .single-feature {
         padding: 15px;
