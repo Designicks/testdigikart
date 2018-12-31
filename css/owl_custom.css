@@ -13,6 +13,19 @@
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
     height: 140px;
 }
+#reccomended .owl-item.active:hover{
+    //opacity: 1;
+    /*-webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden;*/
+    -webkit-transform: translateZ(0) scale(1, 1);
+    transform: scale(1);
+    border-radius: 4px!important;
+    background: #fff!important;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+}
 #reccomended .owl-item.active.center{
     //opacity: 1;
     /*-webkit-backface-visibility: hidden;
@@ -22,9 +35,9 @@
     backface-visibility: hidden;*/
     //-webkit-transform: translateZ(0) scale(1, 1);
     //transform: scale(1);
-    border-radius: 8px!important;
-    background: #1B6FCF!important;
-    box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+    border-radius: 4px!important;
+    background: #fff!important;
+   // box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
 }
 
 .owl-theme .owl-dots .owl-dot {
@@ -51,7 +64,9 @@
     -webkit-tap-highlight-color: transparent;
 }
 .owl-theme .owl-dots .owl-dot.active span,
-.owl-theme .owl-dots .owl-dot:hover span {}
+.owl-theme .owl-dots .owl-dot:hover span {
+
+}
 
 .owl-theme .owl-dots .owl-dot span {
     width: 10px;
@@ -61,7 +76,7 @@
     display: block;
     -webkit-backface-visibility: visible;
     transition: opacity .2s ease;
-    //border-radius: 8px;
+   // border-radius: 8px;
 }
 
 .owl-carousel .owl-item img {
@@ -75,8 +90,8 @@
     //background:url('../images/become.png');
     background-size:cover;
     display: -webkit-flex; /* Safari */
-    -webkit-align-items: center; /* Safari 7.0+ */
-    display: flex;
+    //-webkit-align-items: center; /* Safari 7.0+ */
+   /* display: flex;
     align-items: center;
     text-align:center;
 }*/
@@ -111,23 +126,34 @@
 }
 .owl-next{
     bottom: 15px!important;
-    right: -42px;
+    right: -60px;
 }
 .owl-prev {
     display: none !important;
 }
-.owl-prev,.owl-next{
+.owl-prev{
+  
+}
+.owl-next{
     width: 50px;
     position: absolute;
-    background: #5f76ea2b !important;
+    background-image : url("../icons/right_arrow-17.svg")!important;
     bottom: -60px; 
     //top: 30%; 
     border-radius: 50% !important;
     font-size: 30px;
+    background-repeat: no-repeat!important;
 }
-.owl-prev:hover,
+
+.owl-prev:hover{
+    background : url("../icons/left_arrow-17.svg")!important;
+    background-repeat: no-repeat!important;
+}
+
 .owl-next:hover{
-    background: #1B6FCF !important;
+    //background: #1B6FCF !important;
+    background : url("../icons/right_arrow-17.svg")!important;
+    background-repeat: no-repeat!important;
 }
 #reccomended .item{
     background: #fff0;
@@ -148,29 +174,39 @@
 }
 
 #reccomended .owl-item.active.center:active{
-  color: #fff !important;   
+  color: #fff !important; 
+ box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+ -webkit-transform: translateZ(0) scale(1, 1);
+    transform: scale(1);
 }
 #reccomended .owl-item.active:hover .item{
-  background: #1B6FCF!important;
-  color: #fff !important;
+  background: #fff!important;
+  color: #000 !important;
+   box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+   -webkit-transform: translateZ(0) scale(1, 1);
+    transform: scale(1);
 }
 #reccomended .owl-item.active.center:hover .item{
-    color: #fff !important;
+    color: #000 !important;
+ box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
 }
 .owl-item.active.center>.item{
-    color: #fff !important;
+    color: #000 !important;
 
 }
 .other_item:hover {
     background: none;
+
 }
 
 #reccomended{
     //border: 1px solid red;
     padding:  0px!important;
+
 }
 #reccomended .item{
     //width: 150px!important;
+
 }
 #reccomended .owl-item{
 
