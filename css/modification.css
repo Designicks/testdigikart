@@ -134,7 +134,7 @@ body{
     padding: 10px!important;
 }
 .services .service_row2 .css_service{
-    max-width: 140px;
+    max-width: 120px!important;
     width: auto;
     box-sizing: border-box;
 }
