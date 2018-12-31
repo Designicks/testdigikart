@@ -1846,7 +1846,7 @@ opacity: 0.4;
        color: #fff;
     }
     .btn_tabs li a{
-        color:#fff ;
+       // color:#fff ;
         width: auto;
         text-align: center;
          padding: 0.2em;
@@ -1897,7 +1897,7 @@ opacity: 0.4;
 
 
     .btn_tabs li a{
-        color:#fff !important;
+       // color:#fff !important;
         width: auto;
         text-align: center;
          padding: 0.1em;
