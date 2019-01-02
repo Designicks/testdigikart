@@ -20,27 +20,29 @@
   position: absolute; 
   right: 20%; width: 30%;  
   float: ; z-index: 5; 
-  top: -500px; 
-  //border: 2px solid #000; }
+  bottom: -25px;
+//border: 2px solid #000; }
 /* line 44, ../scss/custom.scss */
-#slick-pager a {background-color: #fff; padding: 10px 15px; width: 100%; /*float: left;*/ border-radius: 10px 10px 10px 10px; border: 1px solid rgba(255, 255, 255, 0.6); /*border: 1px solid #1B6FCF;*/ color: #fff; /*text-decoration: none;*/ }
+#slick-pager a {//background-color: #fff; padding: 15px 25px; width: 100%; /*float: left;*/ border-radius: 10px 10px 10px 10px; border: 1px solid rgba(255, 255, 255, 0.6); /*border: 1px solid #1B6FCF;*/ color: #fff; /*text-decoration: none;*/ }
 /* line 51, ../scss/custom.scss */
-#slick-pager a:hover { text-decoration: none; }
+#slick-pager a:hover { text-decoration: none;  }
 /* line 54, ../scss/custom.scss */
 #slick-pager a.active { background-color: #d95123; }
 /* line 57, ../scss/custom.scss */
-#slick-pager a h3 { color: #1b6fcf; font-size: 30px; font-family: "Lato", sans-serif; font-weight: 700; margin: 0 0 2px; }
-#slick-pager a h6 { color: #1b6fcf; font-size: 15px; font-family: "Lato", sans-serif; font-weight: 500; margin: 0 0 8px; }
-#slick-pager  h2 { color: #1b6fcf; font-size: 25px; font-family: "Lato", sans-serif; font-weight: 500; margin: 0 0 8px; }
+#slick-pager a h3 { color: #1b6fcf; font-size: 28px; font-family: "Lato", sans-serif; font-weight: 600; margin: 0 0 1px; }
+#slick-pager a h6 { color: #1b6fcf; font-size: 12px; font-family: "Lato", sans-serif; font-weight: 500; margin: 0 0 20px; padding-bottom: 5px; }
+#slick-pager  h2 { color: #1b6fcf; font-size: 28px; font-family: 'Open Sans', sans-serif; font-weight: 600; margin: 0 0 8px; }
 
 /* line 63, ../scss/custom.scss */
-#slick-pager a p {color: #9d9d9d;  font-family: "Lato", sans-serif; font-size: 13px; margin-bottom: 8px; line-height: 1.2em; }
+#slick-pager a p {color: #9d9d9d;  font-family: "Lato", sans-serif; font-size: 13px; margin-bottom: 8px; line-height: 1.2em; border:1px solid #eee ; border-radius: 7px; padding: 12px 22px;  
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0); 
+ }
 /* line 68, ../scss/custom.scss */
 #slick-pager a span.time {color: #9d9d9d;  font-family: "Lato", sans-serif; font-size: 10px; }
 /* line 75, ../scss/custom.scss */
 #slick-pager .slick-list .slick-track .slick-slide.slick-current { background-color: #4769e1;}
 #slick-pager .slick-list .slick-track .slick-slide.slick-current *{
- color:#fff;  
+ color:#fff; box-shadow:#4769e1!important;
 }
 /* line 82, ../scss/custom.scss */
 .slick-pager { margin-top: 30px; margin-bottom: 0; }
@@ -65,6 +67,8 @@ height: 50px;}
   background-color: none;
   height: 40px;
 }
+
+.slick-slide img { display: block; width: 70px!important; height: 70px!important; padding-right:10px; padding-bottom: 15px}
 /* line 103, ../scss/custom.scss */
 .pagerNavigationBottom {  position: absolute; /*width: 100%; */left: 95%; right: 0; height: 30px; cursor: pointer;  font-size: 35px; text-align: left;  }
 
