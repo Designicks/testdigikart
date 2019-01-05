@@ -125,23 +125,8 @@ body{
 
  /*Menu Starts canvas*/
 
-.open_menu{
- // height: 100%;
- // width: 0;
-  position: absolute;
- // margin-right: 200px;
- //padding-right: 50px;
- // z-index: 10;
- // top: 0;
-  right: 50px;
-  //background-color: #111;
-  overflow-x: hidden;
- // transition: 0.5s;
- // padding-top: 60px;
- float: right;
-}
 
-/*
+
 .sidenav {
   height: 100%;
   width: 0;
@@ -153,7 +138,7 @@ body{
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
-}*/
+}
 
 .sidenav a {
   padding: 20px 10px 10px 52px;
