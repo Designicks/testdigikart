@@ -1221,6 +1221,20 @@ opacity: 0.4;
         height: 5px;
         margin: 6px 0;
     }
+    
+     #solutions .sol_left .character_lady{
+        position: relative;
+        width: 755px;
+        right: 270px;
+       // padding-left: 0;
+       //margin-right: 250px;
+
+    }
+    #solutions2 .sol_right2 .background_worker{
+        //position: absolute;
+        width: 752px!important;
+        margin-left: 150px;
+    }
 }
 
 /*---- for 1200 and less ----*/
