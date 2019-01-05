@@ -91,7 +91,8 @@
                 <a href="#">Clients</a>
                 <a href="#">Contact</a>
               </div>
-              <span style="font-size:30px;cursor:pointer" onclick="openNav()"><img src="icons/menu-04.svg" width="50"></span>
+              <div id="mySidenav" class="open_menu">
+              <span class="menu_right" onclick="openNav()"><img src="icons/menu-04.svg" width="50" ></span></div>
               
             </div>
           </div>
@@ -1067,12 +1068,14 @@
                 <div class="contact_icons col-xl-2 col-lg-2 col-md-2 col-sm-2 col-2 ">
                   <i class="fas fa-map-marker-alt address_icon"></i>
                 </div>
-                <div class="heading_features col-xl-8 col-lg-8 col-md-8 col-sm-8 col-8 ">
+                <div class="heading_features col-xl-8 col-lg-8 col-md-8 col-sm-8 col-8  ">
                   <h2>ADDRESS</h2>
                   <p class="contact_details">105-Akansha Trade Center</p>
+
                 </div>
-                <div ></div>
+                
               </div>
+
             </div>
           </div>
           <!-- / END SINGLE SERVICE DESIGN AREA -->
@@ -1087,7 +1090,7 @@
                   <h2>EMAIL</h2>
                   <p class="contact_details ">digikartit@gmail.com</p>
                 </div>
-                <div></div>
+                <div class="border_right"></div>
               </div>
             </div>
           </div>
@@ -1103,12 +1106,13 @@
                   <h2>PHONE</h2>
                   <p class="contact_details">+91 988007700</p>
                 </div>
+                <div class="border_right"></div>
               </div>
             </div>
           </div>
           <!-- / END SINGLE SERVICE DESIGN AREA -->
           <!-- / START SINGLE SERVICE DESIGN AREA -->
-          <div class="col-md-3 ">
+          <div class="col-md ">
             <div class="single-feature container">
               <div class="row">
                 <div class="contact_icons col-xl-2 col-lg-2 col-md-2 col-sm-2 col-2 ">
@@ -1117,7 +1121,9 @@
                 <div class="heading_features col-xl-8 col-lg-8 col-md-8 col-sm-8 col-8 ">
                   <h2>WORKING HOURS</h2>
                   <p class="contact_details">10:00 AM To 07:00 PM</p>
+
                 </div>
+                <div class="border_right"></div>
               </div>
             </div>
           </div>
@@ -1311,7 +1317,7 @@
     <!-- Menu slide Script -->
     <script>
     function openNav() {
-    document.getElementById("mySidenav").style.width = "350px";
+    document.getElementById("mySidenav").style.width = "300px";
     }
     function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
