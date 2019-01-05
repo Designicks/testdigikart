@@ -126,6 +126,21 @@ body{
  /*Menu Starts canvas*/
 
 
+.open_menu{
+ // height: 100%;
+ // width: 0;
+  position: absolute;
+ // margin-right: 200px;
+ //padding-right: 50px;
+ // z-index: 10;
+ // top: 0;
+  right: 50px;
+  //background-color: #111;
+  overflow-x: hidden;
+ // transition: 0.5s;
+ // padding-top: 60px;
+ float: right;
+}
 
 .sidenav {
   height: 100%;
@@ -165,6 +180,18 @@ body{
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
+
+@media screen and (min-height: 1541px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a { padding: 50px 50px 50px 52px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;}
+
+}
+
 
  /*Menu End canvas*/
 
@@ -240,6 +267,15 @@ body{
 
 }
 
+.border_right{
+    position: absolute;
+    //top:50px;
+    border-right: 1px solid #ccc;
+    height: 50px;
+    left: -20px;
+    bottom: 0;
+    padding-left: -20px;
+}
 
     
 
@@ -1287,7 +1323,70 @@ opacity: 0.4;
         margin: 0 auto;
         width: 100%!important; 
     }
+
+
+    /*Menu Starts canvas*/
+
+/*.open_menu{
+    position: absolute;
+    right: 5px!important;
 }
+*/
+.open_menu{
+ // height: 100%;
+ // width: 0;
+//  position: fixed;
+ // z-index: 10;
+ // top: 0;
+ // right: 0;
+  //background-color: #111;
+  overflow-x: hidden;
+ // transition: 0.5s;
+ // padding-top: 60px;
+ float: right;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 20px 10px 10px 52px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: -10px;
+  left: -45px;
+  font-size: 36px;
+  //margin-left: 0px;
+}
+
+
+
+}
+
+
+ /*Menu End canvas*/
+
 /*--- for 991px and less ---*/
 @media screen and (max-width:991px ){
     #service{
@@ -2014,4 +2113,5 @@ opacity: 0.4;
   -webkit-transform: translateY(0);
   transform: translateY(0);
 }
+
 
