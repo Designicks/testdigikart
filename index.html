@@ -307,7 +307,7 @@
           <div class="row">
             <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
               <div class="sol_left float-left">
-                <img src="icons/character_01-01-01.svg" alt="Solutions Provider" class="character_lady img-fluid">
+                <img src="icons/character_01-01-01.svg" alt="Solutions Provider" class="character_lady">
               </div>
             </div>
             <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
@@ -775,15 +775,16 @@
         </div>
       </div>
       
-      <div class="blog_content_full container">
+      <div class="blog_content_full container-fluid">
         <!-- blog slider code -->
-        <section id="" class="container">
+        <section id="temp" class="container-fluid">
           <div class="row">
             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
               <div class="owl-carousel owl-theme recommended_blog" id="">
+
                 <div class="blog_item">
                   <div class="blog_img">
-                    <img src="images/blogger.jpg">
+                    <div class="img_overflow"><img src="images/blogger.jpg"></div>
                     <div class="middle">
                       <div class="text">John Doe</div>
                     </div>
@@ -800,9 +801,10 @@
                     
                   </div>
                 </div>
+
                 <div class="blog_item">
                   <div class="blog_img">
-                    <img src="images/blogger.jpg">
+                    <div class="img_overflow"><img src="images/blogger.jpg"></div>
                     <div class="middle">
                       <div class="text">John Doe</div>
                     </div>
@@ -820,7 +822,7 @@
                 </div>
                 <div class=" blog_item">
                   <div class="blog_img">
-                    <img src="images/blogger.jpg">
+                    <div class="img_overflow"><img src="images/blogger.jpg"></div>
                     <div class="middle">
                       <div class="text">John Doe</div>
                     </div>
@@ -838,7 +840,7 @@
                 </div>
                 <div class=" blog_item">
                   <div class="blog_img">
-                    <img src="images/blogger.jpg">
+                    <div class="img_overflow"><img src="images/blogger.jpg"></div>
                     <div class="middle">
                       <div class="text">John Doe</div>
                     </div>
@@ -856,7 +858,7 @@
                 </div>
                 <div class=" blog_item">
                   <div class="blog_img">
-                    <img src="images/blogger.jpg">
+                    <div class="img_overflow"><img src="images/blogger.jpg"></div>
                     <div class="middle">
                       <div class="text">John Doe</div>
                     </div>
@@ -1063,7 +1065,7 @@
           * START FEATURE DESIGN AREA FEATURE AREA *
           --------------------------------------->
           <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12 ">
-            <div class="single-feature ">
+            <div class="single-feature container">
               <div class="row">
                 <div class="contact_icons col-xl-2 col-lg-2 col-md-2 col-sm-2 col-2 ">
                   <i class="fas fa-map-marker-alt address_icon"></i>
@@ -1190,7 +1192,7 @@
     <script type="text/javascript">
     
     $(document).ready(function() {
-    $('.owl-carousel').owlCarousel({
+    $('#reccomended').owlCarousel({
     items: 3,
     loop: true,
     center: true,
@@ -1217,34 +1219,35 @@
     }
     });
     });
-    // $(document).ready(function() {
-    //               $('.recommended_blog').owlCarousel({
-    //                  items: 2,
-    //                 loop: true,
-    //                 center: true,
-    //                 dots: false,
-    //                 nav: true,
-    //                 margin:10,
-    //                 autoplayHoverPause:true,
-    //                 smartSpeed:2000,
-    //                 fluidSpeed:300,
-    //                 slideSpeed: 700,
-    //                 rewind:false,
-    //                 autoplay:true,
-    //                 autoplayTimeout:2000,
-    //                 responsive:{
-    //                   0:{
-    //                       items:1
-    //                   },
-    //                   600:{
-    //                       items:2
-    //                   },
-    //                   1000:{
-    //                       items:2
-    //                   }
-    //                 }
-    //              });
-    //               });
+    $(document).ready(function() {
+                  $('.recommended_blog').owlCarousel({
+                     items: 3,
+                    loop: true,
+                    center: true,
+                    dots: false,
+                    nav: true,
+                    margin:90,
+                    autoWitdh:false,
+                    autoplayHoverPause:true,
+                    smartSpeed:2000,
+                    fluidSpeed:300,
+                    slideSpeed: 700,
+                    rewind:false,
+                    autoplay:true,
+                    autoplayTimeout:2000,
+                    responsive:{
+                      0:{
+                          items:1
+                      },
+                      600:{
+                          items:2
+                      },
+                      1000:{
+                          items:3
+                      }
+                    }
+                 });
+                  });
     $(document).ready(function() {
     $('.owl-prev, .owl-next, .owl-item').click(function(){
     if($('.owl-item:last-child').hasClass('active center')){
@@ -1280,7 +1283,7 @@
     });
     });
     </script>
-    <script>
+    <!-- <script>
     $(document).ready(function(){
     $(".cover_client").mouseover(function(){
     $(".cover_coffee").removeClass("cover_coffee_active");
@@ -1301,7 +1304,7 @@
     $(".cover_coffee").addClass("cover_coffee_active");
     });
     });
-    </script>
+    </script> -->
     <!-- <script type="text/javascript">
     $(document).ready(function() {
     $('.item').bind("mouseover", function(){
