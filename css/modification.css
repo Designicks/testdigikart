@@ -877,12 +877,14 @@ body{
 
 }
 
-.blog_item .text {
-   
-  background-color: #4CAF50;
-  color: white;
-  font-size: 16px;
-  padding: 16px 32px;
+.blog_item .blog_link img{
+   width: 80px!important;
+   height: 80px!important;
+  background-color: #eee;
+ // color: white;
+ // font-size: 16px;
+  padding: 5px 20px;
+  border-radius: 50%;
 
 }
 
@@ -1050,7 +1052,7 @@ body{
 
 /*new contactus*/
 .contactus{
-    padding-left: 50px;
+    padding-left: 6%;
 }
 
 .contactus .single-feature{
@@ -1250,6 +1252,10 @@ body{
     display: none;
     height: 10em;
 }
+.contactus{
+    padding-left: 12%;
+}
+
 }
 /*---- for 1680px to 1998px ----*/
 @media screen and (min-width:1680px ) and (max-width: 1998px){
@@ -1292,16 +1298,18 @@ body{
     }*/
     #solutions .sol_left .character_lady{
         position: relative;
-        width: 755px;
+        width: 735px;
         right: 270px;
        // padding-left: 0;
        //margin-right: 250px;
+      // float: left!important;
 
     }
     #solutions2 .sol_right2 .background_worker{
-        //position: absolute;
-        width: 752px!important;
-        margin-left: 150px;
+        position: relative;
+        width: 735px!important;
+        left: 170px;
+       // float: right!important;
     }
     #temp{
    // width: 100%!important;
@@ -1390,6 +1398,12 @@ body{
         background-color: #f0f0f0;
 
 }
+
+.contactus{
+    padding-left: 20%;
+}
+
+
 }
 
 /*---- for 1200 and less ----*/
