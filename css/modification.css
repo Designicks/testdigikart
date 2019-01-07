@@ -1437,7 +1437,7 @@ body{
     color: #1B6FCF;
 }
 #solutions .sol_right p, #solutions2 .sol_left2 p {
-    padding: 10px 0;
+    padding: 0px 0;
     line-height: 20px;
     font-size: 18px;
     color: #9d9d9d;
