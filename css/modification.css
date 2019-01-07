@@ -1299,7 +1299,7 @@ body{
     #solutions .sol_left .character_lady{
         position: relative;
         width: 735px;
-        right: 270px;
+        right: 278px;
        // padding-left: 0;
        //margin-right: 250px;
       // float: left!important;
@@ -1308,7 +1308,7 @@ body{
     #solutions2 .sol_right2 .background_worker{
         position: relative;
         width: 735px!important;
-        left: 170px;
+        left: 178px;
        // float: right!important;
     }
     #temp{
