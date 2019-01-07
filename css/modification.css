@@ -1465,7 +1465,52 @@ body{
     font-weight: 900;
     color: #4A4549;
 }
-
+.testimonial .testimonial_left .circle3 {
+    margin: 0 auto;
+    width: 150px;
+    width: 38em;
+    height: 38em;
+    border-radius: 35em;
+    position: absolute;
+    position: relative;
+    z-index: 301;
+    left: -4.5em;
+    border: 1px solid #1B6FCF;
+}
+.testimonial .testimonial_left .circle2 {
+    margin: 0 auto;
+    width: 28em;
+    height: 28em;
+    border-radius: 25em;
+    position: absolute;
+    position: relative;
+    z-index: 302;
+    top: 4.8em;
+    border: 2px solid #1B6FCF;
+}
+.testimonial .testimonial_left .circle1 {
+    margin: 0 auto;
+    width: 18em;
+    height: 18em;
+    border-radius: 15em;
+    position: absolute;
+    position: relative;
+    z-index: 303;
+    top: 4.8em;
+    border: 3px solid #1B6FCF;
+}
+.testimonial .testimonial_left .circle0 {
+    margin: 0 auto;
+    width: 5em;
+    height: 5em;
+    background: #1B6FCF;
+    border-radius: 4em;
+    position: absolute;
+    position: relative;
+    z-index: 304;
+    top: 6.8em;
+    border: 4px solid #1B6FCF;
+}
 }
 
 
