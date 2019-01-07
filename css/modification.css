@@ -1318,7 +1318,7 @@ body{
    // padding-right: 0;
 }
 #service{
-    margin-top: 25%;
+    margin-top: 17%;
     padding-top: 0px;
     margin-left: 410px;
     margin-right: 420px;
@@ -1406,7 +1406,7 @@ body{
     width: 120%!important;
     position: absolute;
     left: 0px;
-    top: -90px;
+    top: -24%;
     z-index: -100;
 }
 /*.type-wrap {
@@ -1426,7 +1426,7 @@ body{
     font-size: 30px;
     text-align: left;
     font-weight: 300;
-    padding: 40px 0;
+    padding: 38px 0;
     padding-bottom: 0px;
     color: #9d9d9d;
 }
@@ -1452,13 +1452,22 @@ body{
     padding-top: 10px;
 }
 #solutions2 .sol_left2 {
-    padding-top: 50px;
+    padding-top: 28px!important;
 }
 #solutions2 .sol_right2 .background_worker {
-    padding-top: 42px;
+    padding-top: 30px;
     margin-right: -90px;
 }
+
+#portfolio_container .portfolio_header h1 {
+    text-align: center;
+    font-size: 4.7em;
+    font-weight: 900;
+    color: #4A4549;
 }
+
+}
+
 
 /*---- for 1200 and less ----*/
 @media screen and (max-width:1200px ){
@@ -1512,6 +1521,7 @@ body{
     width: 600px;
     margin-left: -30px;
 
+}
 }
 /*--- for 1200 and less ---*/
 @media screen and (max-width:1200px ){
@@ -2079,14 +2089,22 @@ body{
     #service{
         margin-top: 10px;
         padding-top: 10px; 
+       margin-left:0px;
+       margin-right:0px;
+
+     // padding-right: 0px;
+      padding-left: 20%;
     }
+
+
     /*.service_row1.service_row2 img{
 
      width: 200px!important;
      // padding-left: 10px;
 
     }
-*/   .features-padding {
+*/  
+    .features-padding {
         padding: 10px 0px;
     }
     #SOLUTIONS .background_left01{
