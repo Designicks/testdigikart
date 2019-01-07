@@ -1451,6 +1451,13 @@ body{
     padding: 0px;
     padding-top: 10px;
 }
+#solutions2 .sol_left2 {
+    padding-top: 50px;
+}
+#solutions2 .sol_right2 .background_worker {
+    padding-top: 42px;
+    margin-right: -90px;
+}
 }
 
 /*---- for 1200 and less ----*/
