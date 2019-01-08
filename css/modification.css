@@ -1530,7 +1530,7 @@ body{
     position: absolute;
     position: relative;
     z-index: 301;
-    left: -8.7em;
+    left: -7.6em;
     border: 1px solid #1B6FCF;
 }
 .testimonial .testimonial_left .circle2 {
@@ -1541,7 +1541,7 @@ body{
     position: absolute;
     position: relative;
     z-index: 302;
-    top: 6.5em;
+    top: 5.9em;
     border: 2px solid #1B6FCF;
 }
 .testimonial .testimonial_left .circle1 {
@@ -1552,15 +1552,15 @@ body{
     position: absolute;
     position: relative;
     z-index: 303;
-    top: 5.4em;
+    top: 6em;
     border: 3px solid #1B6FCF;
 }
 .testimonial .testimonial_left .circle0 {
     margin: 0 auto;
-    width: 7.2em;
-    height: 7.2em;
+    width: 7em;
+    height: 7em;
     background: #1B6FCF;
-    border-radius: 5em;
+    border-radius: 9em;
     position: absolute;
     position: relative;
     z-index: 304;
