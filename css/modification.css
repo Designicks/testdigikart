@@ -772,7 +772,7 @@ body{
 #temp{
     width: 100%!important;
    
-    padding-left: 70px!important;
+    padding-left: 70p6!important;
     padding-right: 0;
 }
 #temp{
@@ -1524,8 +1524,8 @@ body{
 .testimonial .testimonial_left .circle3 {
     margin: 0 auto;
     width: 150px;
-    width: 48em;
-    height: 48em;
+    width: 46em;
+    height: 46em;
     border-radius: 35em;
     position: absolute;
     position: relative;
@@ -1535,9 +1535,9 @@ body{
 }
 .testimonial .testimonial_left .circle2 {
     margin: 0 auto;
-    width: 36em;
-    height: 36em;
-    border-radius: 25em;
+    width: 34em;
+    height: 34em;
+    border-radius: 30em;
     position: absolute;
     position: relative;
     z-index: 302;
@@ -1546,9 +1546,9 @@ body{
 }
 .testimonial .testimonial_left .circle1 {
     margin: 0 auto;
-    width: 25em;
-    height: 25em;
-    border-radius: 15em;
+    width: 21em;
+    height: 21em;
+    border-radius: 20em;
     position: absolute;
     position: relative;
     z-index: 303;
@@ -1557,10 +1557,10 @@ body{
 }
 .testimonial .testimonial_left .circle0 {
     margin: 0 auto;
-    width: 8em;
-    height: 8em;
+    width: 7.2em;
+    height: 7.2em;
     background: #1B6FCF;
-    border-radius: 4em;
+    border-radius: 5em;
     position: absolute;
     position: relative;
     z-index: 304;
