@@ -111,7 +111,7 @@ height: 50px;}
 
 @media (min-width: 1311px) 
 {
- .test { width: 1360px; } 
+ .test { width: 1360px; top: -1.2em;} 
 }
 @media (min-width: 1600px) 
 {
@@ -119,11 +119,11 @@ height: 50px;}
 }
 @media (min-width: 1500px) 
 {
- .test { width: 1470px; } 
+ .test { width: 1470px; top: -2em;} 
 }
 @media (min-width: 1700px) 
 {
- .test { width: 1670px; } 
+ .test { width: 1670px;  top:-11.5em;} 
 }
 @media (min-width: 1890px) 
 {
