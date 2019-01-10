@@ -1221,9 +1221,9 @@ body{
 
     }
     #solutions2 .sol_right2 .background_worker{
-        //position: absolute;
+        position: relative;
         width: 745px;
-        margin-left: 10%;
+        //left: 30%;
     }
     #temp{
     width: 100%!important;
@@ -1363,10 +1363,11 @@ body{
 
     }
     #solutions2 .sol_right2 .background_worker{
-        position: relative;
+       /* position: relative;
         width: 735px!important;
-        left: 178px;
-       // float: right!important;
+          right: -50%!important;
+        // padding-right: -50%;
+        float: right!important;*/
     }
     #temp{
    // width: 100%!important;
@@ -1508,13 +1509,13 @@ body{
     padding: 0px;
     padding-top: 10px;
 }
-#solutions2 .sol_left2 {
+/*#solutions2 .sol_left2 {
     padding-top: 28px!important;
 }
 #solutions2 .sol_right2 .background_worker {
     padding-top: 30px;
     margin-right: -90px;
-}
+}*/
 
 #portfolio_container .portfolio_header h1 {
     text-align: center;
@@ -1558,8 +1559,8 @@ body{
 }
 .testimonial .testimonial_left .circle0 {
     margin: 0 auto;
-    width: 6em;
-    height: 6em;
+    width: 5.1em;
+    height: 5.1em;
     background: #1B6FCF;
     border-radius: 9em;
     position: absolute;
@@ -1685,11 +1686,11 @@ body{
         font-weight: 600;
     }
 
-    #solutions .sol_left .character_lady{
+   /* #solutions .sol_left .character_lady{
     width: 600px;
     margin-left: -30px;
 
-}
+}*/
 }
 /*--- for 1200 and less ---*/
 @media screen and (max-width:1200px ){
@@ -1797,7 +1798,7 @@ body{
 
 
 
-}
+}*/
 
 
  /*Menu End canvas*/
