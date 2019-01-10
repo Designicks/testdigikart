@@ -772,7 +772,7 @@ body{
 #temp{
     width: 100%!important;
    
-    padding-left: 70p6!important;
+    padding-left: 70px!important;
     padding-right: 0;
 }
 #temp{
@@ -1312,6 +1312,7 @@ body{
     top: 4.9em;
     border: 4px solid #1B6FCF;
 }
+
 }
 /*---- for 1680px to 1998px ----*/
 @media screen and (min-width:1680px ) and (max-width: 1998px){
@@ -1524,47 +1525,47 @@ body{
 .testimonial .testimonial_left .circle3 {
     margin: 0 auto;
     width: 150px;
-    width: 46em;
-    height: 46em;
+    width: 41em;
+    height: 41em;
     border-radius: 35em;
     position: absolute;
     position: relative;
     z-index: 301;
-    left: -7.6em;
+    left: -9.6em;
     border: 1px solid #1B6FCF;
 }
 .testimonial .testimonial_left .circle2 {
     margin: 0 auto;
-    width: 34em;
-    height: 34em;
+    width: 30em;
+    height: 30em;
     border-radius: 30em;
     position: absolute;
     position: relative;
     z-index: 302;
-    top: 5.9em;
+    top: 4.9em;
     border: 2px solid #1B6FCF;
 }
 .testimonial .testimonial_left .circle1 {
     margin: 0 auto;
-    width: 21em;
-    height: 21em;
+    width: 19em;
+    height: 19em;
     border-radius: 20em;
     position: absolute;
     position: relative;
     z-index: 303;
-    top: 6em;
+    top: 5em;
     border: 3px solid #1B6FCF;
 }
 .testimonial .testimonial_left .circle0 {
     margin: 0 auto;
-    width: 7em;
-    height: 7em;
+    width: 6em;
+    height: 6em;
     background: #1B6FCF;
     border-radius: 9em;
     position: absolute;
     position: relative;
     z-index: 304;
-    top: 7.6em;
+    top: 6.2em;
     border: 4px solid #1B6FCF;
 }
 .testimonial_left img{
@@ -1584,22 +1585,22 @@ body{
 }
 .member3{
     top: -1em;
-    left: 5.1em;  
+    left: 5.3em;  
 }
 .member4{
-    bottom: -1em;
+    bottom: -2em;
     left: 8em;   
 }
 .member5{
     bottom: 8.5em;
-    right: -2em;   
+    right: -2.5em;   
 }
 .member6{
-    top: -1em;
+    top: -1.9em;
     right: 9.5em;
 }
 .member7{
-    bottom: 2.5em;
+    bottom: 1em;
     right: 5em;
 }
 /* ====== CONTACT Styles Here ======*/
